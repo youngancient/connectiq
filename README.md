@@ -24,6 +24,7 @@ ConnectIQ scores every attendee of [CCI STEM Connect](https://ikeja.joincci.org/
 | **Adjustable weights** | One slider per area. The others rebalance so the total stays at 100%, and every score, rank and finding updates live. The leaderboard marks rank changes (▲▼) against the defaults. |
 | **Ask the data** | Seven preset questions (top connectors, hidden potential, who applied, who asked questions, no-shows…). Every answer is calculated, never generated. |
 | **Export** | CSV of the leaderboard (choose Top 10…All, respecting filters), of any Ask-the-data list, or of the full results. Opens cleanly in Excel and Google Sheets. |
+| **Load event data** | Upload another edition's attendee spreadsheet (CSV). Every row is checked on its own: good rows are scored, and each problem is listed by line and field. Uploads stay in that browser, survive a refresh, and can be switched between or removed. |
 | **Comparisons** | Tier mix by career stage and role, arrival time and networking effects, and area averages by role, career stage and breakout track. |
 
 | Profile | Ask the data | Mobile |
@@ -81,7 +82,21 @@ data/cci-stem-connect-2026/
 ✗ cci-stem-connect-2026: Line 14: "Checked In" must be Yes or No, got "Y"
 ```
 
-**To update the data:** export the Attendees tab as CSV over `attendees.csv`, run `npm run data`, then `npm test`. If the scoring settings changed in the spreadsheet, update `event.json` and re-export the Scores tab as `expected-scores.csv`.
+**To update the bundled demo:** export the Attendees tab as CSV over `attendees.csv`, run `npm run data`, then `npm test`. If the scoring settings changed in the spreadsheet, update `event.json` and re-export the Scores tab as `expected-scores.csv`.
+
+### Loading another edition in the app
+
+Organisers don't need to rebuild anything: **Load event data** on the dashboard takes a CSV with the same columns as the [template](public/samples/connectiq-template.csv). Headings are matched ignoring case and spacing; Yes/No in any case, day-first dates (15/11/2026) and 12-hour times (2:25 PM) are accepted. Rows with problems are left out and listed; the rest are scored with the same weights, caps and tiers as the demo, using the keynote time entered in the dialog for punctuality. The file is read in the browser and never sent anywhere.
+
+Sample files for trying it, in `public/samples/` (regenerate with `python3 scripts/make-samples.py`):
+
+| File | What it shows |
+|---|---|
+| `cci-stem-connect-2025-sample.csv` | A clean synthetic 2025 edition (280 registered, 120 attended) with different patterns from 2026 |
+| `cci-stem-connect-2025-with-errors.csv` | The same file with seven deliberate mistakes: the upload keeps 273 rows and lists each problem |
+| `connectiq-template.csv` | The expected columns, with one attendee and one no-show |
+
+The dialog also offers the two samples as links, so they can be tried without downloading anything.
 
 ## Architecture
 
@@ -89,7 +104,7 @@ A static, client-side React app with no backend, no database and no external cal
 
 ```
 src/
-  data/        load and validate (schema.ts, csv.ts, events.ts)
+  data/        load and validate (schema.ts, csv.ts, events.ts, upload.ts for organiser uploads)
   engine/      pure functions, no React: scoring, analytics, findings, explanations,
                weight balancing, Ask-the-data answers, CSV export
   components/  UI sections; pages/BriefPage.tsx is the /about page
@@ -117,6 +132,7 @@ npm test
 - Weight sliders always total 100% and don't drift over many steps.
 - Each Ask-the-data answer, and that its lists match the findings.
 - CSV export: quoting, Excel compatibility, and rows matching what the dashboard shows.
+- Uploads: re-uploading the 2026 export reproduces the demo's scores exactly; the sample with mistakes reports all seven problems and keeps the other rows; messy-but-valid input (case, day-first dates, 12-hour times) is accepted; non-export files are refused.
 
 ## Deployment
 
@@ -136,9 +152,9 @@ Deploys as a static site on Vercel (framework preset: Vite, build command `npm r
 - Scores haven't been checked against real outcomes (jobs, mentors, collaborations); a high score means strong engagement, not proven benefit.
 - Some behaviour counts twice by design: joining networking adds to People Connections and to sessions under Presence; arriving late lowers punctuality and usually costs a session.
 - The whole dataset ships to the browser. That is fine for fictional data; real attendee data would need a login or a backend that serves only aggregates.
-- One event at a time; a new edition's data is added by rebuilding, not uploaded in the app.
+- Uploaded editions are kept only in the browser that loaded them (localStorage); colleagues on other computers load the file themselves.
 
 ## Next version
 
-- **Upload each edition's spreadsheet** from the dashboard, checked and scored in the browser.
 - **Compare editions** side by side, scored with the same weights, to see whether programme changes moved the results.
+- **Shared editions** through a small backend with sign-in, so a team sees the same uploads on every computer.

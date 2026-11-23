@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
-import { Header, formatDate } from '../components/Header'
+import { Header } from '../components/Header'
 import { ReportSection } from '../components/ReportSection'
 import { SITE } from '../config/site'
 import { loadEvent } from '../data/events'
 import { BREAKOUT_TRACKS } from '../data/schema'
-import { AREA_LABELS, AREAS, formatClock } from '../engine/scoring'
+import { AREA_LABELS, AREAS } from '../engine/scoring'
 
 const isSet = (v: string) => !v.startsWith('TODO')
 /** Tells screen-reader users a link leaves the page. */
@@ -17,8 +17,9 @@ const NewTab = () => <span className="sr-only"> (opens in a new tab)</span>
 export function BriefPage() {
   const { event } = useMemo(() => loadEvent(), [])
   const s = event.settings
+  const toMin = (t: string) => Number(t.slice(0, 2)) * 60 + Number(t.slice(3, 5))
+  const lateWindow = toMin(s.latestCheckin) - toMin(s.eventStart)
   const w = (area: (typeof AREAS)[number]) => `${Math.round(s.weights[area] * 100)}%`
-  const networking = event.schedule.find((x) => /network/i.test(x.session))
   const { author } = SITE
 
   return (
@@ -48,15 +49,14 @@ export function BriefPage() {
                 </dd>
               </div>
             )}
-            <div><dt>Event</dt><dd>{formatDate(event.date)}</dd></div>
             <div><dt>Last updated</dt><dd>23 November 2026</dd></div>
           </dl>
         </header>
 
           <ReportSection id="brief-purpose-and-success-criteria" title="Purpose and success criteria">
             <p>
-              ConnectIQ is for the organisers of {event.name}, the Celebration Church STEM community event held on{' '}
-              {formatDate(event.date)}. The event exists to connect students, graduates and professionals with people and
+              ConnectIQ is for the organisers of {event.name}, Celebration Church International's STEM community event. Each
+              edition exists to connect students, graduates and professionals with people and
               opportunities, so ConnectIQ measures performance as exactly that, not as how much someone learned. It gives each
               of the attendees a Connect Score out of 100, places them in one of four tiers, and shows the organisers
               what drove the results and who to follow up with.
@@ -79,7 +79,7 @@ export function BriefPage() {
             <ul>
               <li><strong>{AREA_LABELS.people}</strong> ({w('people')}): connections made, capped at {s.caps.connections}, plus joining the networking session and meeting a speaker.</li>
               <li><strong>{AREA_LABELS.opportunity}</strong> ({w('opportunity')}): opportunities explored, follow-ups within a week, and applying for an opportunity.</li>
-              <li><strong>{AREA_LABELS.presence}</strong> ({w('presence')}): arriving by {formatClock(s.eventStart)}, with less credit up to {formatClock(s.latestCheckin)}, and sessions attended.</li>
+              <li><strong>{AREA_LABELS.presence}</strong> ({w('presence')}): arriving by the keynote, with credit falling to nothing {lateWindow} minutes later, and sessions attended.</li>
               <li><strong>{AREA_LABELS.visibility}</strong> ({w('visibility')}): questions asked, joining the CCI STEM community, and posting about the event.</li>
             </ul>
             <p>
@@ -99,10 +99,10 @@ export function BriefPage() {
 
           <ReportSection id="brief-assumptions" title="Assumptions">
             <p>
-              The registration total comes from the event's Luma page. Attendance and everything attendees did is
-              simulated for this version, with fictional names. The schedule (keynote at {formatClock(s.eventStart)}
-              {networking ? `, networking at ${formatClock(networking.start)}` : ''}, a panel, then {BREAKOUT_TRACKS.join(', ').replace(/, ([^,]*)$/, ' and $1')} breakouts) is the
-              planned programme. The weights, caps and tier thresholds are reasoned starting points, not fitted to outcomes.
+              In the demo edition, the registration total comes from the event's Luma page, while attendance and everything
+              attendees did is simulated, with fictional names. Punctuality is measured from each edition's keynote time, and the
+              breakouts are the four CCI STEM tracks: {BREAKOUT_TRACKS.join(', ').replace(/, ([^,]*)$/, ' and $1')}. The weights,
+              caps and tier thresholds are reasoned starting points, not fitted to outcomes.
             </p>
           </ReportSection>
 
@@ -115,22 +115,22 @@ export function BriefPage() {
               <li>Scores have not been checked against real outcomes, so a high score means strong engagement, not proven benefit.</li>
               <li>Some behaviour counts twice by design: joining networking adds to People Connections and to sessions under Presence, and arriving late lowers punctuality and usually costs a session.</li>
               <li>Connections and follow-ups rely partly on self-reporting.</li>
-              <li>The dashboard shows one event and can't yet load a new spreadsheet itself.</li>
+              <li>Uploaded events are kept only in the browser that loaded them, so colleagues on other computers need to load the file themselves.</li>
             </ul>
           </ReportSection>
 
           <ReportSection id="brief-next-version" title="Next version">
             <ul>
               <li>
-                <strong>Upload each edition's spreadsheet.</strong> Organisers upload the attendee spreadsheet for any CCI STEM
-                Connect edition from the dashboard, in the same format as this one. Each row is checked and scored in the
-                browser, and problem rows are listed by line and field instead of stopping the upload.
+                <strong>Compare editions.</strong> Organisers can already load any CCI STEM Connect edition's spreadsheet from
+                the dashboard (it is checked row by row and scored in the browser). The next step is to set loaded editions side by
+                side, scored with the same weights so the numbers are comparable: show-up rate, average Connect Score, tier mix, and
+                how networking, arrival time and breakouts played out in each. That shows whether changes to the programme, such as
+                starting networking earlier, actually moved the results.
               </li>
               <li>
-                <strong>Compare editions.</strong> With more than one edition loaded, the dashboard scores them with the same
-                weights, so the numbers are comparable, and sets them side by side: show-up
-                rate, average Connect Score, tier mix, and how networking, arrival time and breakouts played out in each. That shows
-                whether changes to the programme, such as starting networking earlier, actually moved the results.
+                <strong>Shared editions.</strong> A small backend with sign-in, so an organising team sees the same uploaded
+                editions on every computer.
               </li>
             </ul>
           </ReportSection>
