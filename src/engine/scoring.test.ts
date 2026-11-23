@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import expectedCsv from '../../data/cci-stem-connect-2026/expected-scores.csv?raw'
 import { loadEvent } from '../data/events'
 import { parseCsv } from '../data/csv'
-import { round, scoreAll, tierFor, punctuality, weightsAreValid, TIERS } from './scoring'
+import { formatClock, round, scoreAll, tierFor, punctuality, weightsAreValid, TIERS } from './scoring'
 
 const { event, registrants } = loadEvent()
 const settings = event.settings
@@ -70,6 +70,14 @@ describe('helpers', () => {
     expect(punctuality('15:00', settings)).toBe(0)
     expect(punctuality('15:30', settings)).toBe(0)
     expect(punctuality('14:22', settings)).toBeCloseTo(38 / 75)
+  })
+
+  it('formats times on a 12-hour clock for display', () => {
+    expect(formatClock('13:37')).toBe('1:37pm')
+    expect(formatClock('09:05')).toBe('9:05am')
+    expect(formatClock('12:00')).toBe('12:00pm')
+    expect(formatClock('00:15')).toBe('12:15am')
+    expect(formatClock(825)).toBe('1:45pm')
   })
 
   it('assigns tiers at the boundaries', () => {

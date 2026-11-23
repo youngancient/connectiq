@@ -4,7 +4,9 @@
  */
 import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react'
 import type { EventDataset, Settings } from '../data/schema'
+import type { QuestionId } from '../engine/ask/catalogue'
 import { scoreAll, type ScoredAttendee } from '../engine/scoring'
+import { sameWeights } from '../engine/weights'
 
 interface DashboardState {
   event: EventDataset['event']
@@ -19,6 +21,9 @@ interface DashboardState {
   baselineRank: ReadonlyMap<string, number>
   selectedId: string | null
   setSelectedId: (id: string | null) => void
+  /** The question shown in Ask the Data (one at a time). */
+  askedId: QuestionId | null
+  ask: (id: QuestionId | null) => void
 }
 
 const Ctx = createContext<DashboardState | null>(null)
@@ -27,6 +32,7 @@ export function DashboardProvider({ dataset, children }: { dataset: EventDataset
   const defaults = dataset.event.settings
   const [settings, setSettings] = useState<Settings>(defaults)
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [askedId, ask] = useState<QuestionId | null>(null)
 
   const baselineRank = useMemo(
     () => new Map(scoreAll(dataset.registrants, defaults).map((a) => [a.registrant.id, a.rank])),
@@ -43,13 +49,16 @@ export function DashboardProvider({ dataset, children }: { dataset: EventDataset
       settings,
       setSettings,
       resetSettings,
-      isDefault: settings === defaults,
+      // Weights are the only settings the dashboard lets people change.
+      isDefault: sameWeights(settings.weights, defaults.weights),
       scored,
       baselineRank,
       selectedId,
       setSelectedId,
+      askedId,
+      ask,
     }),
-    [dataset, defaults, settings, resetSettings, scored, baselineRank, selectedId],
+    [dataset, defaults, settings, resetSettings, scored, baselineRank, selectedId, askedId],
   )
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>
 }

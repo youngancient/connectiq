@@ -3,6 +3,7 @@
  * A finding is only returned when the data supports it at the current weights.
  */
 import type { EventInfo } from '../data/schema'
+import type { QuestionId } from './ask/catalogue'
 import {
   byArrival, byCategory, byNetworking, byRole, byTrack, hiddenPotential, mean, type GroupStats,
 } from './analytics'
@@ -18,6 +19,8 @@ export interface Finding {
   detail: string
   /** Anchor of the section that shows the evidence, if one does. */
   href: string | null
+  /** An Ask the Data question that names the people behind the finding. */
+  askId?: QuestionId
 }
 
 export interface FindingThresholds {
@@ -135,6 +138,7 @@ export function hiddenPotentialFinding(scored: readonly ScoredAttendee[], t: Fin
     headline: `${plural(people.length, 'attendee')} networked well but didn't pursue opportunities.`,
     detail: `People Connections of ${t.hiddenPotential.minPeople} or more, but Opportunity Capture under ${t.hiddenPotential.maxOpportunity}. They are the easiest group to move up with a follow-up prompt.`,
     href: null,
+    askId: 'hidden-potential',
   }
 }
 

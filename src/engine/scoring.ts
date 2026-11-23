@@ -55,6 +55,14 @@ export function round(value: number, dp = 1): number {
 
 export const clamp01 = (x: number) => Math.min(1, Math.max(0, x))
 
+/** 825 (minutes after midnight) or "13:45" → "1:45pm", for display only. */
+export function formatClock(time: number | string): string {
+  const m = typeof time === 'number' ? time : toMinutes(time)
+  const h24 = Math.floor(m / 60) % 24
+  const h12 = h24 % 12 === 0 ? 12 : h24 % 12
+  return `${h12}:${String(m % 60).padStart(2, '0')}${h24 < 12 ? 'am' : 'pm'}`
+}
+
 /** "13:45" → 825 (minutes after midnight). */
 export function toMinutes(hhmm: string): number {
   const [h, m] = hhmm.split(':').map(Number)

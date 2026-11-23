@@ -1,10 +1,13 @@
 import { useMemo } from 'react'
+import { AskTheData } from './components/AskTheData'
+import { AttendeeProfile } from './components/AttendeeProfile'
 import { RoomChart } from './components/charts/RoomChart'
 import { Comparisons } from './components/Comparisons'
 import { Funnel } from './components/Funnel'
 import { Header, Intro } from './components/Header'
 import { KeyFindings } from './components/KeyFindings'
 import { Leaderboard } from './components/Leaderboard'
+import { ModelControls } from './components/ModelControls'
 import { SectionBoundary } from './components/SectionBoundary'
 import { TierMix } from './components/TierMix'
 import { Timing } from './components/Timing'
@@ -25,12 +28,15 @@ export default function App() {
           <SectionBoundary name="The room chart"><RoomChart /></SectionBoundary>
           <SectionBoundary name="Attendance funnel"><Funnel /></SectionBoundary>
         </div>
+        <SectionBoundary name="Weight controls"><ModelControls /></SectionBoundary>
         <SectionBoundary name="Key findings"><KeyFindings /></SectionBoundary>
         <SectionBoundary name="Tier breakdown"><TierMix /></SectionBoundary>
         <SectionBoundary name="Leaderboard"><Leaderboard /></SectionBoundary>
+        <SectionBoundary name="Ask the data"><AskTheData /></SectionBoundary>
         <SectionBoundary name="Timing and networking"><Timing /></SectionBoundary>
         <SectionBoundary name="Group comparisons"><Comparisons /></SectionBoundary>
       </main>
+      <SectionBoundary name="Attendee profile"><AttendeeProfile /></SectionBoundary>
     </DashboardProvider>
   )
 }

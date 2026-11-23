@@ -5,7 +5,7 @@ import { useDashboard } from '../state/dashboard'
 import { ReportSection } from './ReportSection'
 
 export function KeyFindings() {
-  const { scored, event } = useDashboard()
+  const { scored, event, ask } = useDashboard()
   const findings = useMemo(() => keyFindings(scored, event, THRESHOLDS), [scored, event])
 
   return (
@@ -28,6 +28,13 @@ export function KeyFindings() {
                 <p className="finding-headline">{f.headline}</p>
                 <p className="finding-detail">{f.detail}</p>
                 {f.href && <a className="finding-link" href={f.href}>See the evidence</a>}
+                {f.askId && (
+                  <button type="button" className="link-btn finding-link" onClick={() => {
+                      ask(f.askId!)
+                      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+                      requestAnimationFrame(() => document.getElementById('ask')?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }))
+                    }}>See who they are</button>
+                )}
               </div>
             </li>
           ))}

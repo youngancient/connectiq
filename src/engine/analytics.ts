@@ -1,9 +1,9 @@
 /**
- * Aggregate statistics over scored attendees. Pure functions: the UI and
- * Ask the Data both call these, so their numbers always agree.
+ * Aggregate statistics over scored attendees. Pure functions shared by the
+ * findings, charts and tables, so their numbers always agree.
  */
 import type { EventInfo, Registrant } from '../data/schema'
-import { AREAS, round, TIERS, toMinutes, type AreaKey, type ScoredAttendee, type Tier } from './scoring'
+import { AREAS, formatClock, round, TIERS, toMinutes, type AreaKey, type ScoredAttendee, type Tier } from './scoring'
 
 export const mean = (xs: readonly number[]): number => (xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : 0)
 
@@ -81,11 +81,10 @@ export function arrivalBands(event: EventInfo): ArrivalBand[] {
   const start = toMinutes(event.settings.eventStart)
   const networking = event.schedule.find((s) => /network/i.test(s.session))
   const late = networking ? toMinutes(networking.start) : start + 45
-  const hm = (m: number) => `${Math.floor(m / 60)}:${String(m % 60).padStart(2, '0')}`
   return [
-    { label: `By ${hm(start)}`, until: start },
-    { label: `${hm(start + 1)}–${hm(late - 1)}`, until: late - 1 },
-    { label: `${hm(late)} or later`, until: Infinity },
+    { label: `By ${formatClock(start)}`, until: start },
+    { label: `${formatClock(start + 1)}–${formatClock(late - 1)}`, until: late - 1 },
+    { label: `${formatClock(late)} or later`, until: Infinity },
   ]
 }
 
