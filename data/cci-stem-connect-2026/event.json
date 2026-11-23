@@ -1,0 +1,22 @@
+{
+  "id": "cci-stem-connect-2026",
+  "name": "CCI STEM Connect",
+  "date": "2026-11-22",
+  "timezone": "Africa/Lagos",
+  "synthetic": true,
+  "schedule": [
+    { "session": "Check-in opens", "start": "13:15" },
+    { "session": "Keynote", "start": "13:45", "end": "14:30" },
+    { "session": "Networking", "start": "14:30", "end": "15:15" },
+    { "session": "Panel discussion", "start": "15:15", "end": "16:15" },
+    { "session": "Short break", "start": "16:15", "end": "16:30" },
+    { "session": "Breakout sessions", "start": "16:30", "end": "17:30" }
+  ],
+  "settings": {
+    "weights": { "people": 0.35, "opportunity": 0.35, "presence": 0.15, "visibility": 0.15 },
+    "caps": { "connections": 10, "opportunities": 4, "followups": 5, "questions": 2 },
+    "eventStart": "13:45",
+    "latestCheckin": "15:00",
+    "tiers": { "super": 75, "active": 55, "emerging": 35 }
+  }
+}
