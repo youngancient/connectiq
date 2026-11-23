@@ -30,7 +30,7 @@ export function EditionBar({ editions, activeId, demoId, onSelect, onUpload, onR
         <p className="edition-current"><span>Showing</span> {label(editions[0])}</p>
       )}
       <div className="edition-actions">
-        <button type="button" className="btn btn-sm" onClick={onUpload} aria-haspopup="dialog">Load event data</button>
+        <button type="button" className="link-btn" onClick={onUpload} aria-haspopup="dialog">Load event data</button>
         {activeId !== demoId && (
           <button type="button" className="link-btn" onClick={() => onRemove(activeId)}>Remove this event</button>
         )}
