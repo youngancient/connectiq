@@ -1,4 +1,3 @@
-import { useId } from 'react'
 import { SITE } from '../config/site'
 import { useDashboard } from '../state/dashboard'
 import { Wordmark } from './Logo'
@@ -24,7 +23,6 @@ export function Header() {
 /** Opening statement above "the room" chart. */
 export function Intro() {
   const { event, scored } = useDashboard()
-  const tipId = useId()
   return (
     <div className="intro">
       <h1>How well did {scored.length} attendees connect?</h1>
@@ -32,12 +30,6 @@ export function Intro() {
         The Connect Score rates how well each person at {event.name} on {formatDate(event.date)} met people and
         pursued opportunities, out of 100.
       </p>
-      {event.synthetic && (
-        <span className="tooltip-wrap">
-          <button type="button" className="badge-synthetic" aria-describedby={tipId}>Synthetic data</button>
-          <span role="tooltip" id={tipId} className="tooltip">{SITE.syntheticNote}</span>
-        </span>
-      )}
     </div>
   )
 }

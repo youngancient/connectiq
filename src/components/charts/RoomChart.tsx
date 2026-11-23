@@ -95,7 +95,9 @@ export function RoomChart() {
         )}
       </div>
       <figcaption className="room-caption">
-        Each dot is one attendee, placed by Connect Score out of 100. Hover for a name; the full list is in the leaderboard.
+        Each dot is one attendee, placed by Connect Score out of 100.{' '}
+        <span className="on-desktop">Hover for a name; the full list is in the leaderboard.</span>
+        <span className="on-mobile">Select a dot to open that person's profile.</span>
       </figcaption>
     </figure>
   )

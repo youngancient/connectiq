@@ -96,17 +96,6 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .intro { display: grid; gap: 14px; justify-items: start; max-width: 46rem; }
 .intro h1 { font-size: clamp(2rem, 5.2vw, 3.4rem); letter-spacing: -0.035em; font-weight: 750; text-wrap: balance; }
 .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 38rem; text-wrap: pretty; }
-.badge-synthetic {
-  border: 1px solid var(--brand); background: var(--brand-tint); color: var(--brand);
-  border-radius: 999px; padding: 3px 12px; font-size: 0.82rem; font-weight: 600; cursor: help;
-}
-.tooltip-wrap { position: relative; display: inline-block; }
-.tooltip {
-  position: absolute; left: 0; top: calc(100% + 8px); z-index: 5; width: min(320px, 80vw);
-  background: var(--ink); color: var(--paper); padding: 10px 12px; border-radius: 6px; font-size: 0.85rem; line-height: 1.45;
-  opacity: 0; visibility: hidden; transition: opacity .15s;
-}
-.tooltip-wrap:hover .tooltip, .tooltip-wrap:focus-within .tooltip { opacity: 1; visibility: visible; }
 
 /* The room chart */
 .room { margin: 0; }
@@ -179,7 +168,8 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 
 /* Table */
 .table-meta { margin-bottom: 10px; font-size: 0.88rem; color: var(--ink-2); }
-.table-scroll { overflow-x: auto; margin: 0 calc(var(--gutter) * -1); padding: 0 var(--gutter); }
+/* position: relative keeps hidden screen-reader text inside the scroller, so it can't widen the page. */
+.table-scroll { position: relative; overflow-x: auto; margin: 0 calc(var(--gutter) * -1); padding: 0 var(--gutter); }
 @media (min-width: 1024px) { .table-scroll { margin: 0; padding: 0; } }
 .table { width: 100%; border-collapse: collapse; font-size: 0.92rem; min-width: 940px; }
 .table th, .table td { padding: 11px 10px; border-bottom: 1px solid var(--rule); text-align: left; white-space: nowrap; }
@@ -374,3 +364,56 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .answer-method dt { color: var(--ink-2); }
 .answer-method dd { margin: 0; }
 button.finding-link { padding: 0; font-size: 0.9rem; font-weight: 600; justify-self: start; }
+
+
+/* ── Phones only (below 768px). Nothing here changes tablet or desktop. ── */
+@media (max-width: 767px) {
+  /* The page never scrolls sideways; only tables do. clip (not hidden) keeps sticky working. */
+  html, body { overflow-x: clip; }
+
+  /* Keep absolutely positioned children (screen-reader text) inside the scroller,
+     and stop a sideways swipe inside a table from dragging the page. */
+  .table-scroll {
+    position: relative; overscroll-behavior-x: contain;
+    /* Soft edge shadows show there is more to scroll to. */
+    background:
+      linear-gradient(to right, var(--paper) 30%, transparent) left center / 32px 100% no-repeat local,
+      linear-gradient(to left, var(--paper) 30%, transparent) right center / 32px 100% no-repeat local,
+      radial-gradient(farthest-side at 0 50%, rgb(0 0 0 / 0.14), transparent) left center / 12px 100% no-repeat scroll,
+      radial-gradient(farthest-side at 100% 50%, rgb(0 0 0 / 0.14), transparent) right center / 12px 100% no-repeat scroll;
+  }
+
+  /* Comparisons: the group name stays in view while the numbers scroll.
+     The negative offset covers the scroller's side padding so nothing shows through. */
+  .cmp-table thead th:first-child, .cmp-table tbody th, .cmp-table tfoot th {
+    position: sticky; left: calc(var(--gutter) * -1); z-index: 1; background: var(--paper);
+    box-shadow: inset -1px 0 0 var(--rule);
+  }
+
+  /* Room chart labels fit the narrow tier zones. */
+  .zone-name { font-size: 0.68rem; }
+  .zone-count { font-size: 0.9rem; }
+
+  /* Tier mix: bars only; the counts push the bars off-screen. */
+  .mix-table { min-width: 0; }
+  .mix-table th:nth-child(n + 3), .mix-table td:nth-child(n + 3) { display: none; }
+  .mix-table td:nth-child(2) { width: auto; }
+  .mix-table tbody th, .mix-table tfoot th { width: 40%; white-space: normal; }
+
+  /* Ask the data: use the full width for the answer. */
+  .turn-a { padding-left: 0; border-left: 0; }
+
+  /* Caption wording for touch. */
+  .on-desktop { display: none; }
+}
+@media (min-width: 768px) { .on-mobile { display: none; } }
+
+/* Touch screens: no hover styles, so a tap doesn't leave things highlighted.
+   Devices with a mouse are unaffected. */
+@media (hover: none) and (max-width: 767px) {
+  .chip:hover, .btn:hover, .theme-toggle:hover, .drawer-close:hover { border-color: var(--rule); color: inherit; }
+  .chip[aria-pressed='true']:hover { border-color: var(--ink); color: var(--paper); }
+  .name-btn:hover { color: var(--ink); text-decoration: none; }
+  .table tbody tr:hover { background: none; }
+  .segmented label:hover span { border-color: var(--rule); }
+}

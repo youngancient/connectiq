@@ -12,8 +12,6 @@ export const SITE = {
     linkedin: 'TODO: https://www.linkedin.com/in/<user>',
   },
   briefPath: '/brief',
-  syntheticNote:
-    'The registration total (361) is real, from the event page. Attendance and everything attendees did are simulated, and all names are fictional.',
 } as const
 
 export const THRESHOLDS = {
