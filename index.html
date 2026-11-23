@@ -1,10 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vt</title>
+    <title>ConnectIQ · Connect Score Dashboard</title>
+    <meta name="description" content="How well each attendee of CCI STEM Connect connected with people and opportunities. Synthetic data." />
+    <meta name="theme-color" content="#B20000" />
+    <script>
+      // Apply a saved theme before first paint to avoid a flash. Light is the default.
+      try { if (localStorage.getItem('connectiq-theme') === 'dark') document.documentElement.dataset.theme = 'dark' } catch {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

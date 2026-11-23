@@ -1,0 +1,24 @@
+/**
+ * Site-wide copy, links and UI thresholds. Everything the UI might be tempted
+ * to hard-code lives here. TODO values must be filled in before deploying.
+ */
+export const SITE = {
+  name: 'ConnectIQ',
+  tagline: 'How well each attendee used the event to connect with people and opportunities',
+  author: {
+    name: 'TODO: your name',
+    email: 'TODO: your email',
+    github: 'TODO: https://github.com/<user>/connectiq',
+    linkedin: 'TODO: https://www.linkedin.com/in/<user>',
+  },
+  briefPath: '/brief',
+  syntheticNote:
+    'The registration total (361) is real, from the event page. Attendance and everything attendees did are simulated, and all names are fictional.',
+} as const
+
+export const THRESHOLDS = {
+  /** "Hidden potential": strong networkers who didn't capture opportunities. */
+  hiddenPotential: { minPeople: 70, maxOpportunity: 40 },
+  /** Differences (in points) below this are described as "slightly". */
+  notableDifference: 5,
+} as const

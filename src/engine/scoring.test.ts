@@ -10,9 +10,9 @@ const scored = scoreAll(registrants, settings)
 const byId = new Map(scored.map((a) => [a.registrant.id, a]))
 
 describe('dataset', () => {
-  it('has 125 registrations and 104 check-ins', () => {
-    expect(registrants).toHaveLength(125)
-    expect(scored).toHaveLength(104)
+  it('has 361 registrations and 150 check-ins', () => {
+    expect(registrants).toHaveLength(361)
+    expect(scored).toHaveLength(150)
   })
 })
 
@@ -32,16 +32,16 @@ describe('reference values from the PRD', () => {
     expect(scored[2].rank).toBe(3)
   })
 
-  it('has tier counts 20 / 32 / 25 / 27', () => {
+  it('has tier counts 28 / 45 / 42 / 35', () => {
     const counts = TIERS.map((t) => scored.filter((a) => a.tier === t).length)
-    expect(counts).toEqual([20, 32, 25, 27])
+    expect(counts).toEqual([28, 45, 42, 35])
   })
 })
 
 describe('matches the spreadsheet Scores tab for every attendee', () => {
   const [, ...rows] = parseCsv(expectedCsv)
 
-  it('covers all 104 attendees', () => expect(rows).toHaveLength(104))
+  it('covers all 150 attendees', () => expect(rows).toHaveLength(150))
 
   it.each(rows)('%s', (id, people, opportunity, presence, visibility, score, tier) => {
     const a = byId.get(id)
