@@ -10,7 +10,7 @@
     { "session": "Networking", "start": "14:30", "end": "15:15" },
     { "session": "Panel discussion", "start": "15:15", "end": "16:15" },
     { "session": "Short break", "start": "16:15", "end": "16:30" },
-    { "session": "Breakout sessions", "start": "16:30", "end": "17:30" }
+    { "session": "Breakout sessions (Science, Tech, Engineering, Maths)", "start": "16:30", "end": "17:30" }
   ],
   "settings": {
     "weights": { "people": 0.35, "opportunity": 0.35, "presence": 0.15, "visibility": 0.15 },

@@ -19,6 +19,10 @@ export const SITE = {
 export const THRESHOLDS = {
   /** "Hidden potential": strong networkers who didn't capture opportunities. */
   hiddenPotential: { minPeople: 70, maxOpportunity: 40 },
-  /** Differences (in points) below this are described as "slightly". */
+  /** Score differences (points out of 100) below this are "slightly" and don't make a finding. */
   notableDifference: 5,
+  /** Connection-count differences below this don't make a finding. */
+  notableConnections: 1,
+  /** Groups smaller than this are flagged as small and never headline a finding. */
+  minGroupSize: 5,
 } as const

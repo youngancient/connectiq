@@ -9,7 +9,7 @@ type Dir = 'asc' | 'desc'
 type Limit = 10 | 20 | 30 | 40 | 50 | 'all'
 
 const LIMITS: readonly Limit[] = [10, 20, 30, 40, 50, 'all']
-const DEFAULT_LIMIT: Limit = 50
+const DEFAULT_LIMIT: Limit = 10
 
 const COLUMNS: { key: SortKey; label: string; numeric?: boolean; defaultDir: Dir }[] = [
   { key: 'rank', label: 'Rank', numeric: true, defaultDir: 'asc' },

@@ -8,7 +8,7 @@ import { z } from 'zod'
 const hhmm = z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/, 'expected HH:MM (24h)')
 
 export const CATEGORIES = ['Student', 'Graduate', 'Professional'] as const
-export const BREAKOUT_TRACKS = ['AI & Data', 'Fintech & Software', 'Engineering & Innovation'] as const
+export const BREAKOUT_TRACKS = ['Science', 'Tech', 'Engineering', 'Maths'] as const
 /** Raw spreadsheet value meaning the attendee left before breakouts. */
 export const NO_BREAKOUT = 'Did not attend' as const
 

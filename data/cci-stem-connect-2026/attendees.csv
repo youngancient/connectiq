@@ -1,145 +1,145 @@
 Attendee ID,Full Name,Gender,Category,STEM Field / Role,Years of Experience,Registration Date,Checked In,Check-in Time,Attended Keynote,Attended Networking,Attended Panel,Breakout Track,Questions Asked,Connections Made,Opportunities Explored,Follow-ups Within a Week,Applied for an Opportunity,Connected with a Speaker,Joined CCI STEM Community,Posted on LinkedIn
-CCI-001,Victor Danjuma,Male,Professional,Content Creation,4,2026-11-15,Yes,13:40,Yes,Yes,Yes,Engineering & Innovation,0,4,3,2,No,No,No,No
-CCI-002,Obinna Okeke,Male,Professional,AI Engineering,3,2026-11-15,Yes,13:54,Yes,Yes,Yes,Fintech & Software,0,12,3,5,No,No,No,Yes
-CCI-003,Kunle Eze,Male,Professional,Infrastructure Engineering,12,2026-11-17,Yes,14:34,No,Yes,Yes,AI & Data,0,7,1,3,No,Yes,No,No
-CCI-004,Ayomide Nwosu,Male,Professional,Content Creation,7,2026-11-09,Yes,13:48,Yes,Yes,Yes,Engineering & Innovation,1,9,5,6,Yes,No,Yes,Yes
-CCI-005,Femi Afolabi,Male,Student,Mathematics,0,2026-11-12,Yes,13:15,Yes,Yes,Yes,AI & Data,0,7,2,2,No,Yes,No,No
+CCI-001,Victor Danjuma,Male,Professional,Content Creation,4,2026-11-15,Yes,13:40,Yes,Yes,Yes,Tech,0,4,3,2,No,No,No,No
+CCI-002,Obinna Okeke,Male,Professional,AI Engineering,3,2026-11-15,Yes,13:54,Yes,Yes,Yes,Tech,0,12,3,5,No,No,No,Yes
+CCI-003,Kunle Eze,Male,Professional,Infrastructure Engineering,12,2026-11-17,Yes,14:34,No,Yes,Yes,Tech,0,7,1,3,No,Yes,No,No
+CCI-004,Ayomide Nwosu,Male,Professional,Content Creation,7,2026-11-09,Yes,13:48,Yes,Yes,Yes,Tech,1,9,5,6,Yes,No,Yes,Yes
+CCI-005,Femi Afolabi,Male,Student,Mathematics,0,2026-11-12,Yes,13:15,Yes,Yes,Yes,Maths,0,7,2,2,No,Yes,No,No
 CCI-006,Temitope Eze,Female,Graduate,Civil Engineering,1,2026-11-12,No,,,,,,,,,,,,,
-CCI-007,Kelechi Onyeka,Male,Student,Mechanical Engineering,0,2026-11-02,Yes,13:18,Yes,Yes,Yes,Engineering & Innovation,0,5,5,5,Yes,Yes,Yes,Yes
-CCI-008,Segun Yakubu,Male,Professional,Digital Consulting,4,2026-11-20,Yes,13:20,Yes,No,Yes,AI & Data,0,4,3,2,Yes,No,No,No
-CCI-009,Esther Onyeka,Female,Professional,Software Engineering,11,2026-11-04,Yes,14:32,No,Yes,Yes,AI & Data,0,7,2,4,No,Yes,No,No
+CCI-007,Kelechi Onyeka,Male,Student,Mechanical Engineering,0,2026-11-02,Yes,13:18,Yes,Yes,Yes,Engineering,0,5,5,5,Yes,Yes,Yes,Yes
+CCI-008,Segun Yakubu,Male,Professional,Digital Consulting,4,2026-11-20,Yes,13:20,Yes,No,Yes,Science,0,4,3,2,Yes,No,No,No
+CCI-009,Esther Onyeka,Female,Professional,Software Engineering,11,2026-11-04,Yes,14:32,No,Yes,Yes,Tech,0,7,2,4,No,Yes,No,No
 CCI-010,Funmilayo Uzor,Female,Student,Civil Engineering,0,2026-11-09,Yes,13:31,Yes,Yes,Yes,Did not attend,0,1,1,0,No,No,Yes,No
-CCI-011,Oluwaseun Garba,Female,Student,Mechanical Engineering,0,2026-11-06,Yes,13:35,Yes,Yes,Yes,Fintech & Software,0,3,2,2,No,No,No,No
-CCI-012,Femi Garba,Male,Graduate,Infrastructure Engineering,0,2026-11-19,Yes,13:43,Yes,Yes,Yes,Engineering & Innovation,0,8,4,3,No,No,Yes,No
-CCI-013,Ibrahim Ekwueme,Male,Student,Mathematics,0,2026-11-16,Yes,14:49,No,No,Yes,Fintech & Software,0,1,0,0,No,No,Yes,No
-CCI-014,Chinedu Balogun,Male,Professional,Mathematics,3,2026-11-12,Yes,14:14,No,Yes,Yes,Engineering & Innovation,0,11,6,7,No,No,Yes,Yes
+CCI-011,Oluwaseun Garba,Female,Student,Mechanical Engineering,0,2026-11-06,Yes,13:35,Yes,Yes,Yes,Engineering,0,3,2,2,No,No,No,No
+CCI-012,Femi Garba,Male,Graduate,Infrastructure Engineering,0,2026-11-19,Yes,13:43,Yes,Yes,Yes,Tech,0,8,4,3,No,No,Yes,No
+CCI-013,Ibrahim Ekwueme,Male,Student,Mathematics,0,2026-11-16,Yes,14:49,No,No,Yes,Maths,0,1,0,0,No,No,Yes,No
+CCI-014,Chinedu Balogun,Male,Professional,Mathematics,3,2026-11-12,Yes,14:14,No,Yes,Yes,Maths,0,11,6,7,No,No,Yes,Yes
 CCI-015,Musa Nwosu,Male,Professional,Infrastructure Engineering,2,2026-11-18,Yes,13:30,Yes,Yes,Yes,Did not attend,0,10,4,4,No,Yes,No,No
-CCI-016,Yusuf Adeyemi,Male,Graduate,Digital Consulting,0,2026-11-09,Yes,14:32,No,No,Yes,Fintech & Software,0,1,0,0,No,No,No,No
+CCI-016,Yusuf Adeyemi,Male,Graduate,Digital Consulting,0,2026-11-09,Yes,14:32,No,No,Yes,Tech,0,1,0,0,No,No,No,No
 CCI-017,Blessing Okeke,Female,Professional,Founder,11,2026-11-06,No,,,,,,,,,,,,,
-CCI-018,Ibrahim Oyelaran,Male,Professional,Content Creation,7,2026-11-08,Yes,14:38,No,Yes,Yes,Fintech & Software,1,13,5,7,Yes,Yes,Yes,Yes
-CCI-019,Uche Yakubu,Male,Graduate,Software Engineering,0,2026-11-03,Yes,13:36,Yes,Yes,Yes,Fintech & Software,0,4,3,0,No,Yes,No,No
-CCI-020,Yetunde Eze,Female,Student,Software Engineering,0,2026-11-08,Yes,14:29,No,Yes,Yes,AI & Data,0,2,1,0,No,No,No,No
-CCI-021,Funmilayo Yakubu,Female,Professional,Software Engineering,6,2026-11-21,Yes,13:49,Yes,Yes,Yes,Engineering & Innovation,1,12,6,4,No,Yes,Yes,Yes
-CCI-022,Blessing Abubakar,Female,Graduate,Digital Consulting,0,2026-11-19,Yes,14:18,No,Yes,Yes,Fintech & Software,1,9,5,5,No,Yes,Yes,Yes
-CCI-023,Babajide Fashola,Male,Student,Mechanical Engineering,0,2026-11-03,Yes,13:27,Yes,Yes,Yes,AI & Data,0,4,2,0,No,No,No,No
-CCI-024,Ruth Abubakar,Female,Professional,Infrastructure Engineering,3,2026-11-09,Yes,13:26,Yes,Yes,Yes,Engineering & Innovation,0,7,3,1,No,No,No,No
-CCI-025,Ifeoma Bello,Female,Professional,Infrastructure Engineering,10,2026-11-02,Yes,13:47,Yes,Yes,Yes,AI & Data,0,12,3,6,Yes,No,Yes,No
+CCI-018,Ibrahim Oyelaran,Male,Professional,Content Creation,7,2026-11-08,Yes,14:38,No,Yes,Yes,Engineering,1,13,5,7,Yes,Yes,Yes,Yes
+CCI-019,Uche Yakubu,Male,Graduate,Software Engineering,0,2026-11-03,Yes,13:36,Yes,Yes,Yes,Tech,0,4,3,0,No,Yes,No,No
+CCI-020,Yetunde Eze,Female,Student,Software Engineering,0,2026-11-08,Yes,14:29,No,Yes,Yes,Tech,0,2,1,0,No,No,No,No
+CCI-021,Funmilayo Yakubu,Female,Professional,Software Engineering,6,2026-11-21,Yes,13:49,Yes,Yes,Yes,Tech,1,12,6,4,No,Yes,Yes,Yes
+CCI-022,Blessing Abubakar,Female,Graduate,Digital Consulting,0,2026-11-19,Yes,14:18,No,Yes,Yes,Engineering,1,9,5,5,No,Yes,Yes,Yes
+CCI-023,Babajide Fashola,Male,Student,Mechanical Engineering,0,2026-11-03,Yes,13:27,Yes,Yes,Yes,Engineering,0,4,2,0,No,No,No,No
+CCI-024,Ruth Abubakar,Female,Professional,Infrastructure Engineering,3,2026-11-09,Yes,13:26,Yes,Yes,Yes,Maths,0,7,3,1,No,No,No,No
+CCI-025,Ifeoma Bello,Female,Professional,Infrastructure Engineering,10,2026-11-02,Yes,13:47,Yes,Yes,Yes,Tech,0,12,3,6,Yes,No,Yes,No
 CCI-026,Folake Nwachukwu,Female,Student,Mathematics,0,2026-11-01,No,,,,,,,,,,,,,
-CCI-027,Obinna Ajayi,Male,Student,Software Engineering,0,2026-11-15,Yes,13:37,Yes,Yes,Yes,Engineering & Innovation,0,8,4,6,Yes,Yes,No,Yes
-CCI-028,Daniel Nwosu,Male,Student,Mechanical Engineering,0,2026-11-21,Yes,13:24,Yes,Yes,Yes,Fintech & Software,0,4,3,1,No,No,Yes,No
+CCI-027,Obinna Ajayi,Male,Student,Software Engineering,0,2026-11-15,Yes,13:37,Yes,Yes,Yes,Tech,0,8,4,6,Yes,Yes,No,Yes
+CCI-028,Daniel Nwosu,Male,Student,Mechanical Engineering,0,2026-11-21,Yes,13:24,Yes,Yes,Yes,Engineering,0,4,3,1,No,No,Yes,No
 CCI-029,Uche Adeyemi,Male,Professional,AI Engineering,6,2026-11-09,No,,,,,,,,,,,,,
 CCI-030,Esther Chukwu,Female,Student,Civil Engineering,0,2026-11-07,No,,,,,,,,,,,,,
-CCI-031,Musa Ajayi,Male,Graduate,Mathematics,0,2026-11-20,Yes,13:15,Yes,Yes,Yes,Engineering & Innovation,0,5,2,1,No,No,No,No
-CCI-032,Fatima Okeke,Female,Student,AI Engineering,0,2026-11-02,Yes,14:01,No,Yes,Yes,Fintech & Software,0,9,3,5,No,No,No,Yes
-CCI-033,Ifeanyi Adebayo,Male,Professional,Mathematics,6,2026-11-16,Yes,13:44,Yes,Yes,Yes,Engineering & Innovation,0,11,4,6,No,Yes,Yes,Yes
-CCI-034,Olumide Olawale,Male,Graduate,Content Creation,0,2026-11-11,Yes,13:30,Yes,No,Yes,Engineering & Innovation,0,4,2,0,No,No,Yes,No
-CCI-035,Femi Eze,Male,Professional,Digital Consulting,8,2026-11-13,Yes,14:03,No,Yes,Yes,Engineering & Innovation,0,7,3,4,Yes,Yes,No,No
-CCI-036,Babajide Ogunleye,Male,Student,AI Engineering,0,2026-11-08,Yes,14:36,No,Yes,Yes,Fintech & Software,1,10,4,7,No,Yes,Yes,Yes
-CCI-037,Zainab Olawale,Female,Professional,Software Engineering,4,2026-11-20,Yes,13:57,Yes,Yes,Yes,Fintech & Software,0,7,4,4,No,No,Yes,Yes
-CCI-038,Nkechi Uzor,Female,Student,Mechanical Engineering,0,2026-11-03,Yes,13:54,Yes,Yes,Yes,Fintech & Software,0,7,4,5,No,No,Yes,No
-CCI-039,Chidi Ogunleye,Male,Graduate,Mathematics,0,2026-11-05,Yes,13:15,Yes,Yes,Yes,Engineering & Innovation,0,9,5,1,No,Yes,No,Yes
-CCI-040,Uche Akinola,Male,Professional,Content Creation,5,2026-11-21,Yes,14:13,No,Yes,Yes,Engineering & Innovation,2,13,5,7,No,Yes,Yes,Yes
-CCI-041,Ifeoma Okafor,Female,Student,Mechanical Engineering,0,2026-11-02,Yes,13:41,Yes,Yes,Yes,Engineering & Innovation,0,5,5,5,Yes,Yes,Yes,Yes
+CCI-031,Musa Ajayi,Male,Graduate,Mathematics,0,2026-11-20,Yes,13:15,Yes,Yes,Yes,Maths,0,5,2,1,No,No,No,No
+CCI-032,Fatima Okeke,Female,Student,AI Engineering,0,2026-11-02,Yes,14:01,No,Yes,Yes,Engineering,0,9,3,5,No,No,No,Yes
+CCI-033,Ifeanyi Adebayo,Male,Professional,Mathematics,6,2026-11-16,Yes,13:44,Yes,Yes,Yes,Maths,0,11,4,6,No,Yes,Yes,Yes
+CCI-034,Olumide Olawale,Male,Graduate,Content Creation,0,2026-11-11,Yes,13:30,Yes,No,Yes,Tech,0,4,2,0,No,No,Yes,No
+CCI-035,Femi Eze,Male,Professional,Digital Consulting,8,2026-11-13,Yes,14:03,No,Yes,Yes,Engineering,0,7,3,4,Yes,Yes,No,No
+CCI-036,Babajide Ogunleye,Male,Student,AI Engineering,0,2026-11-08,Yes,14:36,No,Yes,Yes,Tech,1,10,4,7,No,Yes,Yes,Yes
+CCI-037,Zainab Olawale,Female,Professional,Software Engineering,4,2026-11-20,Yes,13:57,Yes,Yes,Yes,Tech,0,7,4,4,No,No,Yes,Yes
+CCI-038,Nkechi Uzor,Female,Student,Mechanical Engineering,0,2026-11-03,Yes,13:54,Yes,Yes,Yes,Maths,0,7,4,5,No,No,Yes,No
+CCI-039,Chidi Ogunleye,Male,Graduate,Mathematics,0,2026-11-05,Yes,13:15,Yes,Yes,Yes,Maths,0,9,5,1,No,Yes,No,Yes
+CCI-040,Uche Akinola,Male,Professional,Content Creation,5,2026-11-21,Yes,14:13,No,Yes,Yes,Tech,2,13,5,7,No,Yes,Yes,Yes
+CCI-041,Ifeoma Okafor,Female,Student,Mechanical Engineering,0,2026-11-02,Yes,13:41,Yes,Yes,Yes,Engineering,0,5,5,5,Yes,Yes,Yes,Yes
 CCI-042,Ifeoma Adeyemi,Female,Student,Mathematics,0,2026-11-03,No,,,,,,,,,,,,,
 CCI-043,Hauwa Ibekwe,Female,Student,Mechanical Engineering,0,2026-11-04,No,,,,,,,,,,,,,
-CCI-044,Obinna Lawal,Male,Student,AI Engineering,0,2026-11-01,Yes,14:09,No,Yes,Yes,Fintech & Software,0,2,2,1,No,No,No,No
-CCI-045,Amaka Ogunleye,Female,Student,Mechanical Engineering,0,2026-11-19,Yes,14:21,No,Yes,Yes,Fintech & Software,0,4,2,4,No,No,Yes,Yes
+CCI-044,Obinna Lawal,Male,Student,AI Engineering,0,2026-11-01,Yes,14:09,No,Yes,Yes,Science,0,2,2,1,No,No,No,No
+CCI-045,Amaka Ogunleye,Female,Student,Mechanical Engineering,0,2026-11-19,Yes,14:21,No,Yes,Yes,Engineering,0,4,2,4,No,No,Yes,Yes
 CCI-046,Emeka Uzor,Male,Student,Mathematics,0,2026-11-15,No,,,,,,,,,,,,,
-CCI-047,Emeka Oyelaran,Male,Student,AI Engineering,0,2026-11-12,Yes,14:25,No,Yes,Yes,AI & Data,0,7,5,2,Yes,Yes,Yes,No
-CCI-048,Precious Oyelaran,Female,Graduate,Mathematics,1,2026-11-03,Yes,13:48,Yes,Yes,Yes,Fintech & Software,0,7,2,2,No,No,No,No
+CCI-047,Emeka Oyelaran,Male,Student,AI Engineering,0,2026-11-12,Yes,14:25,No,Yes,Yes,Engineering,0,7,5,2,Yes,Yes,Yes,No
+CCI-048,Precious Oyelaran,Female,Graduate,Mathematics,1,2026-11-03,Yes,13:48,Yes,Yes,Yes,Maths,0,7,2,2,No,No,No,No
 CCI-049,Bukola Yakubu,Female,Professional,Content Creation,12,2026-11-04,Yes,13:17,Yes,Yes,Yes,Did not attend,0,10,3,4,No,Yes,No,No
 CCI-050,Yetunde Okeke,Female,Graduate,Founder,1,2026-11-01,Yes,13:32,Yes,Yes,Yes,Did not attend,0,5,4,1,Yes,No,No,No
-CCI-051,Nnamdi Adeyemi,Male,Student,Civil Engineering,0,2026-11-10,Yes,13:39,Yes,Yes,Yes,Engineering & Innovation,0,5,4,3,No,No,Yes,No
+CCI-051,Nnamdi Adeyemi,Male,Student,Civil Engineering,0,2026-11-10,Yes,13:39,Yes,Yes,Yes,Engineering,0,5,4,3,No,No,Yes,No
 CCI-052,Victor Balogun,Male,Student,Content Creation,0,2026-11-05,No,,,,,,,,,,,,,
 CCI-053,Bukola Uzor,Female,Graduate,AI Engineering,0,2026-11-09,No,,,,,,,,,,,,,
-CCI-054,Musa Okeke,Male,Professional,Infrastructure Engineering,9,2026-11-09,Yes,13:47,Yes,No,Yes,Fintech & Software,0,5,1,2,No,No,No,No
+CCI-054,Musa Okeke,Male,Professional,Infrastructure Engineering,9,2026-11-09,Yes,13:47,Yes,No,Yes,Tech,0,5,1,2,No,No,No,No
 CCI-055,Musa Onyeka,Male,Professional,Founder,3,2026-11-04,No,,,,,,,,,,,,,
-CCI-056,Chioma Ekwueme,Female,Professional,Digital Consulting,6,2026-11-18,Yes,14:00,Yes,No,Yes,Engineering & Innovation,0,4,2,1,No,No,No,No
-CCI-057,Hauwa Eze,Female,Graduate,Digital Consulting,1,2026-11-16,Yes,14:21,No,Yes,Yes,Engineering & Innovation,0,4,2,2,No,No,Yes,No
-CCI-058,Chioma Bello,Female,Professional,AI Engineering,2,2026-11-02,Yes,13:17,Yes,Yes,Yes,Engineering & Innovation,0,4,0,0,No,No,No,No
+CCI-056,Chioma Ekwueme,Female,Professional,Digital Consulting,6,2026-11-18,Yes,14:00,Yes,No,Yes,Science,0,4,2,1,No,No,No,No
+CCI-057,Hauwa Eze,Female,Graduate,Digital Consulting,1,2026-11-16,Yes,14:21,No,Yes,Yes,Tech,0,4,2,2,No,No,Yes,No
+CCI-058,Chioma Bello,Female,Professional,AI Engineering,2,2026-11-02,Yes,13:17,Yes,Yes,Yes,Tech,0,4,0,0,No,No,No,No
 CCI-059,Damilola Ekwueme,Female,Student,Content Creation,0,2026-11-21,Yes,14:57,No,No,No,Did not attend,0,0,0,1,No,No,No,No
 CCI-060,Kemi Yakubu,Female,Student,Mathematics,0,2026-11-13,No,,,,,,,,,,,,,
-CCI-061,Segun Nwachukwu,Male,Student,Mechanical Engineering,0,2026-11-20,Yes,13:34,Yes,Yes,Yes,Engineering & Innovation,0,7,3,5,Yes,Yes,No,No
-CCI-062,Esther Lawal,Female,Student,Mathematics,0,2026-11-03,Yes,13:29,Yes,No,Yes,Fintech & Software,0,0,0,0,No,No,No,No
-CCI-063,Tobi Obi,Male,Graduate,Mechanical Engineering,1,2026-11-14,Yes,13:34,Yes,Yes,Yes,Engineering & Innovation,0,7,5,3,No,Yes,No,Yes
-CCI-064,Ifeoma Adebayo,Female,Professional,Mathematics,2,2026-11-14,Yes,13:54,Yes,Yes,Yes,AI & Data,0,10,4,5,No,Yes,No,No
+CCI-061,Segun Nwachukwu,Male,Student,Mechanical Engineering,0,2026-11-20,Yes,13:34,Yes,Yes,Yes,Engineering,0,7,3,5,Yes,Yes,No,No
+CCI-062,Esther Lawal,Female,Student,Mathematics,0,2026-11-03,Yes,13:29,Yes,No,Yes,Maths,0,0,0,0,No,No,No,No
+CCI-063,Tobi Obi,Male,Graduate,Mechanical Engineering,1,2026-11-14,Yes,13:34,Yes,Yes,Yes,Engineering,0,7,5,3,No,Yes,No,Yes
+CCI-064,Ifeoma Adebayo,Female,Professional,Mathematics,2,2026-11-14,Yes,13:54,Yes,Yes,Yes,Tech,0,10,4,5,No,Yes,No,No
 CCI-065,Fatima Adebayo,Female,Graduate,Software Engineering,1,2026-11-02,No,,,,,,,,,,,,,
-CCI-066,Fatima Okonkwo,Female,Graduate,Founder,0,2026-11-20,Yes,13:47,Yes,Yes,Yes,Fintech & Software,0,6,3,6,No,Yes,Yes,No
+CCI-066,Fatima Okonkwo,Female,Graduate,Founder,0,2026-11-20,Yes,13:47,Yes,Yes,Yes,Science,0,6,3,6,No,Yes,Yes,No
 CCI-067,David Adeyemi,Male,Graduate,Infrastructure Engineering,0,2026-11-04,Yes,13:49,Yes,Yes,No,Did not attend,0,5,2,0,No,No,No,No
 CCI-068,Obinna Chukwu,Male,Professional,Digital Consulting,6,2026-11-14,No,,,,,,,,,,,,,
-CCI-069,Chioma Salami,Female,Student,Mathematics,0,2026-11-11,Yes,13:46,Yes,Yes,Yes,Fintech & Software,0,4,1,1,No,No,No,No
-CCI-070,Ruth Akinola,Female,Graduate,Civil Engineering,0,2026-11-01,Yes,13:19,Yes,Yes,Yes,Engineering & Innovation,1,7,3,3,No,Yes,No,Yes
-CCI-071,Chidi Okafor,Male,Student,Civil Engineering,0,2026-11-04,Yes,13:26,Yes,Yes,Yes,Fintech & Software,1,8,3,2,Yes,No,Yes,Yes
+CCI-069,Chioma Salami,Female,Student,Mathematics,0,2026-11-11,Yes,13:46,Yes,Yes,Yes,Tech,0,4,1,1,No,No,No,No
+CCI-070,Ruth Akinola,Female,Graduate,Civil Engineering,0,2026-11-01,Yes,13:19,Yes,Yes,Yes,Engineering,1,7,3,3,No,Yes,No,Yes
+CCI-071,Chidi Okafor,Male,Student,Civil Engineering,0,2026-11-04,Yes,13:26,Yes,Yes,Yes,Tech,1,8,3,2,Yes,No,Yes,Yes
 CCI-072,Ifeoma Akinola,Female,Graduate,Mathematics,1,2026-11-01,Yes,13:20,Yes,Yes,Yes,Did not attend,0,8,3,3,Yes,Yes,Yes,No
-CCI-073,Funmilayo Ibekwe,Female,Student,Software Engineering,0,2026-11-12,Yes,13:38,Yes,Yes,Yes,Fintech & Software,1,5,3,2,Yes,No,Yes,Yes
-CCI-074,Amaka Bello,Female,Graduate,Mathematics,1,2026-11-17,Yes,13:56,Yes,No,Yes,AI & Data,0,1,0,0,No,No,No,No
-CCI-075,Fatima Fashola,Female,Graduate,Digital Consulting,0,2026-11-13,Yes,13:47,Yes,Yes,Yes,Fintech & Software,0,4,3,1,No,Yes,No,Yes
-CCI-076,Yusuf Nwachukwu,Male,Graduate,Infrastructure Engineering,0,2026-11-19,Yes,14:01,No,Yes,Yes,Engineering & Innovation,1,9,6,4,No,No,Yes,Yes
-CCI-077,Fatima Salami,Female,Graduate,Infrastructure Engineering,1,2026-11-21,Yes,13:15,Yes,Yes,Yes,Engineering & Innovation,0,9,6,6,Yes,Yes,Yes,Yes
+CCI-073,Funmilayo Ibekwe,Female,Student,Software Engineering,0,2026-11-12,Yes,13:38,Yes,Yes,Yes,Tech,1,5,3,2,Yes,No,Yes,Yes
+CCI-074,Amaka Bello,Female,Graduate,Mathematics,1,2026-11-17,Yes,13:56,Yes,No,Yes,Engineering,0,1,0,0,No,No,No,No
+CCI-075,Fatima Fashola,Female,Graduate,Digital Consulting,0,2026-11-13,Yes,13:47,Yes,Yes,Yes,Tech,0,4,3,1,No,Yes,No,Yes
+CCI-076,Yusuf Nwachukwu,Male,Graduate,Infrastructure Engineering,0,2026-11-19,Yes,14:01,No,Yes,Yes,Tech,1,9,6,4,No,No,Yes,Yes
+CCI-077,Fatima Salami,Female,Graduate,Infrastructure Engineering,1,2026-11-21,Yes,13:15,Yes,Yes,Yes,Engineering,0,9,6,6,Yes,Yes,Yes,Yes
 CCI-078,Adaeze Danjuma,Female,Student,Civil Engineering,0,2026-11-08,No,,,,,,,,,,,,,
-CCI-079,Adaeze Balogun,Female,Graduate,AI Engineering,0,2026-11-03,Yes,13:18,Yes,Yes,Yes,Engineering & Innovation,2,7,4,1,No,No,Yes,No
-CCI-080,Olumide Adeyemi,Male,Professional,Software Engineering,8,2026-11-05,Yes,13:31,Yes,Yes,Yes,Engineering & Innovation,0,6,1,2,No,No,No,No
-CCI-081,Seyi Salami,Male,Graduate,Civil Engineering,0,2026-11-01,Yes,13:44,Yes,Yes,Yes,Engineering & Innovation,1,8,4,4,No,No,No,No
-CCI-082,Musa Ekwueme,Male,Student,Civil Engineering,0,2026-11-18,Yes,13:15,Yes,Yes,Yes,AI & Data,0,4,5,3,Yes,Yes,Yes,Yes
+CCI-079,Adaeze Balogun,Female,Graduate,AI Engineering,0,2026-11-03,Yes,13:18,Yes,Yes,Yes,Engineering,2,7,4,1,No,No,Yes,No
+CCI-080,Olumide Adeyemi,Male,Professional,Software Engineering,8,2026-11-05,Yes,13:31,Yes,Yes,Yes,Tech,0,6,1,2,No,No,No,No
+CCI-081,Seyi Salami,Male,Graduate,Civil Engineering,0,2026-11-01,Yes,13:44,Yes,Yes,Yes,Engineering,1,8,4,4,No,No,No,No
+CCI-082,Musa Ekwueme,Male,Student,Civil Engineering,0,2026-11-18,Yes,13:15,Yes,Yes,Yes,Maths,0,4,5,3,Yes,Yes,Yes,Yes
 CCI-083,Precious Garba,Female,Student,Civil Engineering,0,2026-11-19,Yes,13:48,Yes,Yes,Yes,Did not attend,0,4,3,0,No,No,Yes,Yes
-CCI-084,Esther Garba,Female,Professional,Software Engineering,4,2026-11-18,Yes,13:40,Yes,Yes,Yes,AI & Data,0,7,3,1,Yes,No,Yes,No
-CCI-085,Olumide Onyeka,Male,Professional,Software Engineering,2,2026-11-20,Yes,14:48,No,No,Yes,Fintech & Software,0,2,2,0,No,No,No,No
+CCI-084,Esther Garba,Female,Professional,Software Engineering,4,2026-11-18,Yes,13:40,Yes,Yes,Yes,Science,0,7,3,1,Yes,No,Yes,No
+CCI-085,Olumide Onyeka,Male,Professional,Software Engineering,2,2026-11-20,Yes,14:48,No,No,Yes,Tech,0,2,2,0,No,No,No,No
 CCI-086,Folake Abubakar,Female,Professional,Software Engineering,4,2026-11-09,Yes,13:50,Yes,No,No,Did not attend,0,7,4,3,Yes,No,No,No
-CCI-087,Temitope Chukwu,Female,Student,AI Engineering,0,2026-11-08,Yes,14:19,No,No,Yes,Fintech & Software,0,2,3,1,No,No,No,Yes
-CCI-088,Victor Fashola,Male,Graduate,Software Engineering,1,2026-11-12,Yes,13:22,Yes,Yes,Yes,AI & Data,0,7,4,4,Yes,No,Yes,Yes
-CCI-089,Halima Ajayi,Female,Professional,AI Engineering,9,2026-11-16,Yes,13:30,Yes,Yes,Yes,Fintech & Software,0,12,4,4,No,No,No,No
+CCI-087,Temitope Chukwu,Female,Student,AI Engineering,0,2026-11-08,Yes,14:19,No,No,Yes,Tech,0,2,3,1,No,No,No,Yes
+CCI-088,Victor Fashola,Male,Graduate,Software Engineering,1,2026-11-12,Yes,13:22,Yes,Yes,Yes,Tech,0,7,4,4,Yes,No,Yes,Yes
+CCI-089,Halima Ajayi,Female,Professional,AI Engineering,9,2026-11-16,Yes,13:30,Yes,Yes,Yes,Tech,0,12,4,4,No,No,No,No
 CCI-090,Chidi Uzor,Male,Graduate,Civil Engineering,0,2026-11-02,Yes,13:15,Yes,No,Yes,Did not attend,0,2,2,0,No,No,No,Yes
 CCI-091,Chidi Okonkwo,Male,Student,AI Engineering,0,2026-11-09,Yes,13:15,Yes,Yes,Yes,Did not attend,0,6,2,4,No,No,Yes,No
-CCI-092,Folake Ajayi,Female,Graduate,Software Engineering,1,2026-11-02,Yes,13:37,Yes,Yes,Yes,AI & Data,0,6,3,3,No,Yes,No,Yes
+CCI-092,Folake Ajayi,Female,Graduate,Software Engineering,1,2026-11-02,Yes,13:37,Yes,Yes,Yes,Tech,0,6,3,3,No,Yes,No,Yes
 CCI-093,Segun Salami,Male,Graduate,Software Engineering,0,2026-11-15,No,,,,,,,,,,,,,
-CCI-094,Nkechi Okafor,Female,Student,AI Engineering,0,2026-11-12,Yes,13:36,Yes,No,Yes,AI & Data,0,0,1,0,No,No,No,No
-CCI-095,Ngozi Balogun,Female,Professional,Software Engineering,6,2026-11-16,Yes,13:39,Yes,Yes,Yes,Fintech & Software,0,8,2,3,No,Yes,Yes,No
+CCI-094,Nkechi Okafor,Female,Student,AI Engineering,0,2026-11-12,Yes,13:36,Yes,No,Yes,Engineering,0,0,1,0,No,No,No,No
+CCI-095,Ngozi Balogun,Female,Professional,Software Engineering,6,2026-11-16,Yes,13:39,Yes,Yes,Yes,Engineering,0,8,2,3,No,Yes,Yes,No
 CCI-096,Hauwa Abubakar,Female,Student,Mathematics,0,2026-11-07,No,,,,,,,,,,,,,
 CCI-097,Femi Nwosu,Male,Graduate,Mathematics,0,2026-11-13,No,,,,,,,,,,,,,
-CCI-098,Kelechi Mohammed,Male,Professional,Mathematics,8,2026-11-11,Yes,13:15,Yes,No,Yes,AI & Data,0,2,0,0,No,No,No,Yes
+CCI-098,Kelechi Mohammed,Male,Professional,Mathematics,8,2026-11-11,Yes,13:15,Yes,No,Yes,Maths,0,2,0,0,No,No,No,Yes
 CCI-099,Chinedu Chukwu,Male,Graduate,Software Engineering,1,2026-11-17,Yes,14:00,Yes,Yes,Yes,Did not attend,0,6,1,0,No,No,No,No
-CCI-100,Musa Chukwu,Male,Graduate,AI Engineering,0,2026-11-03,Yes,13:43,Yes,Yes,Yes,Engineering & Innovation,0,7,5,4,Yes,No,Yes,No
-CCI-101,Oluwaseun Salami,Female,Graduate,Mechanical Engineering,0,2026-11-02,Yes,13:32,Yes,Yes,Yes,Fintech & Software,0,8,4,5,Yes,Yes,No,No
-CCI-102,Temitope Salami,Female,Student,Content Creation,0,2026-11-20,Yes,13:29,Yes,Yes,Yes,Fintech & Software,0,7,2,6,No,Yes,No,No
-CCI-103,Yusuf Uzor,Male,Student,Civil Engineering,0,2026-11-20,Yes,13:35,Yes,Yes,Yes,Engineering & Innovation,0,9,7,6,Yes,Yes,Yes,Yes
-CCI-104,Amaka Nwachukwu,Female,Graduate,AI Engineering,1,2026-11-16,Yes,14:47,No,No,Yes,Fintech & Software,0,3,1,2,No,No,Yes,No
-CCI-105,Nnamdi Bello,Male,Student,Mechanical Engineering,0,2026-11-08,Yes,13:45,Yes,Yes,Yes,Engineering & Innovation,0,2,1,0,No,No,No,No
-CCI-106,Funmilayo Obi,Female,Professional,Infrastructure Engineering,5,2026-11-07,Yes,13:26,Yes,Yes,Yes,Fintech & Software,0,13,5,8,No,Yes,No,Yes
+CCI-100,Musa Chukwu,Male,Graduate,AI Engineering,0,2026-11-03,Yes,13:43,Yes,Yes,Yes,Tech,0,7,5,4,Yes,No,Yes,No
+CCI-101,Oluwaseun Salami,Female,Graduate,Mechanical Engineering,0,2026-11-02,Yes,13:32,Yes,Yes,Yes,Engineering,0,8,4,5,Yes,Yes,No,No
+CCI-102,Temitope Salami,Female,Student,Content Creation,0,2026-11-20,Yes,13:29,Yes,Yes,Yes,Science,0,7,2,6,No,Yes,No,No
+CCI-103,Yusuf Uzor,Male,Student,Civil Engineering,0,2026-11-20,Yes,13:35,Yes,Yes,Yes,Engineering,0,9,7,6,Yes,Yes,Yes,Yes
+CCI-104,Amaka Nwachukwu,Female,Graduate,AI Engineering,1,2026-11-16,Yes,14:47,No,No,Yes,Tech,0,3,1,2,No,No,Yes,No
+CCI-105,Nnamdi Bello,Male,Student,Mechanical Engineering,0,2026-11-08,Yes,13:45,Yes,Yes,Yes,Science,0,2,1,0,No,No,No,No
+CCI-106,Funmilayo Obi,Female,Professional,Infrastructure Engineering,5,2026-11-07,Yes,13:26,Yes,Yes,Yes,Tech,0,13,5,8,No,Yes,No,Yes
 CCI-107,Seyi Oyelaran,Male,Student,AI Engineering,0,2026-11-21,Yes,13:35,Yes,No,Yes,Did not attend,0,0,2,0,No,Yes,Yes,Yes
 CCI-108,Amaka Adebayo,Female,Student,Mathematics,0,2026-11-14,No,,,,,,,,,,,,,
 CCI-109,Segun Nwosu,Male,Student,Civil Engineering,0,2026-11-11,Yes,13:55,Yes,Yes,No,Did not attend,0,7,2,2,No,No,No,No
 CCI-110,Ifeanyi Ajayi,Male,Professional,Infrastructure Engineering,11,2026-11-16,Yes,13:55,Yes,Yes,Yes,Did not attend,0,10,0,6,No,No,No,No
 CCI-111,Victor Okonkwo,Male,Graduate,Software Engineering,1,2026-11-21,Yes,14:38,No,Yes,Yes,Did not attend,1,9,3,1,No,Yes,Yes,Yes
-CCI-112,Chioma Ogunleye,Female,Student,Mechanical Engineering,0,2026-11-09,Yes,14:06,No,Yes,Yes,Engineering & Innovation,0,7,0,0,No,No,No,No
-CCI-113,Ruth Okonkwo,Female,Student,Software Engineering,0,2026-11-19,Yes,14:08,No,Yes,Yes,Fintech & Software,0,1,2,0,No,No,No,No
-CCI-114,Adaeze Abubakar,Female,Graduate,AI Engineering,1,2026-11-01,Yes,13:50,Yes,No,Yes,Engineering & Innovation,0,0,0,0,No,No,No,No
-CCI-115,Segun Olawale,Male,Student,Mathematics,0,2026-11-09,Yes,13:33,Yes,No,Yes,AI & Data,0,0,2,1,No,Yes,No,Yes
-CCI-116,Yusuf Danjuma,Male,Professional,Software Engineering,1,2026-11-16,Yes,13:52,Yes,Yes,Yes,AI & Data,0,6,2,4,No,No,Yes,No
-CCI-117,Adaeze Adebayo,Female,Graduate,Software Engineering,0,2026-11-04,Yes,13:30,Yes,Yes,Yes,Fintech & Software,0,5,3,0,Yes,No,No,No
-CCI-118,Tobi Uzor,Male,Professional,Software Engineering,1,2026-11-15,Yes,14:41,No,No,Yes,Fintech & Software,0,3,1,1,No,No,Yes,No
+CCI-112,Chioma Ogunleye,Female,Student,Mechanical Engineering,0,2026-11-09,Yes,14:06,No,Yes,Yes,Engineering,0,7,0,0,No,No,No,No
+CCI-113,Ruth Okonkwo,Female,Student,Software Engineering,0,2026-11-19,Yes,14:08,No,Yes,Yes,Tech,0,1,2,0,No,No,No,No
+CCI-114,Adaeze Abubakar,Female,Graduate,AI Engineering,1,2026-11-01,Yes,13:50,Yes,No,Yes,Tech,0,0,0,0,No,No,No,No
+CCI-115,Segun Olawale,Male,Student,Mathematics,0,2026-11-09,Yes,13:33,Yes,No,Yes,Maths,0,0,2,1,No,Yes,No,Yes
+CCI-116,Yusuf Danjuma,Male,Professional,Software Engineering,1,2026-11-16,Yes,13:52,Yes,Yes,Yes,Engineering,0,6,2,4,No,No,Yes,No
+CCI-117,Adaeze Adebayo,Female,Graduate,Software Engineering,0,2026-11-04,Yes,13:30,Yes,Yes,Yes,Science,0,5,3,0,Yes,No,No,No
+CCI-118,Tobi Uzor,Male,Professional,Software Engineering,1,2026-11-15,Yes,14:41,No,No,Yes,Engineering,0,3,1,1,No,No,Yes,No
 CCI-119,Hauwa Okeke,Female,Professional,Mechanical Engineering,3,2026-11-07,No,,,,,,,,,,,,,
-CCI-120,Kemi Akinola,Female,Student,Mechanical Engineering,0,2026-11-11,Yes,14:12,No,Yes,Yes,AI & Data,0,7,6,2,Yes,Yes,No,Yes
-CCI-121,Ayomide Ogunleye,Male,Graduate,Content Creation,0,2026-11-09,Yes,13:53,Yes,Yes,Yes,AI & Data,0,3,5,3,Yes,No,No,No
-CCI-122,Tobi Akinola,Male,Professional,Content Creation,12,2026-11-04,Yes,13:36,Yes,No,Yes,Engineering & Innovation,2,7,1,1,No,No,No,Yes
-CCI-123,Grace Okeke,Female,Professional,Infrastructure Engineering,7,2026-11-08,Yes,13:38,Yes,Yes,Yes,Engineering & Innovation,0,8,1,4,No,Yes,No,No
-CCI-124,Ruth Nwosu,Female,Professional,Mathematics,11,2026-11-15,Yes,13:44,Yes,Yes,Yes,Engineering & Innovation,0,7,5,2,Yes,Yes,No,No
+CCI-120,Kemi Akinola,Female,Student,Mechanical Engineering,0,2026-11-11,Yes,14:12,No,Yes,Yes,Maths,0,7,6,2,Yes,Yes,No,Yes
+CCI-121,Ayomide Ogunleye,Male,Graduate,Content Creation,0,2026-11-09,Yes,13:53,Yes,Yes,Yes,Tech,0,3,5,3,Yes,No,No,No
+CCI-122,Tobi Akinola,Male,Professional,Content Creation,12,2026-11-04,Yes,13:36,Yes,No,Yes,Tech,2,7,1,1,No,No,No,Yes
+CCI-123,Grace Okeke,Female,Professional,Infrastructure Engineering,7,2026-11-08,Yes,13:38,Yes,Yes,Yes,Tech,0,8,1,4,No,Yes,No,No
+CCI-124,Ruth Nwosu,Female,Professional,Mathematics,11,2026-11-15,Yes,13:44,Yes,Yes,Yes,Maths,0,7,5,2,Yes,Yes,No,No
 CCI-125,Fatima Bello,Female,Professional,AI Engineering,9,2026-11-19,No,,,,,,,,,,,,,
 CCI-126,Dayo Eze,Male,Professional,Content Creation,10,2026-11-02,No,,,,,,,,,,,,,
 CCI-127,Kunle Balogun,Male,Student,AI Engineering,0,2026-11-18,No,,,,,,,,,,,,,
 CCI-128,Halima Oke,Female,Professional,Content Creation,5,2026-11-19,No,,,,,,,,,,,,,
 CCI-129,Ikenna Afolabi,Male,Graduate,Digital Consulting,0,2026-11-19,No,,,,,,,,,,,,,
-CCI-130,Nneka Oladipo,Female,Student,Software Engineering,0,2026-11-19,Yes,14:09,No,Yes,Yes,Engineering & Innovation,1,11,4,7,No,Yes,No,No
+CCI-130,Nneka Oladipo,Female,Student,Software Engineering,0,2026-11-19,Yes,14:09,No,Yes,Yes,Tech,1,11,4,7,No,Yes,No,No
 CCI-131,Kelechi Yakubu,Male,Professional,Infrastructure Engineering,4,2026-11-13,No,,,,,,,,,,,,,
 CCI-132,Kayode Oyelaran,Male,Student,Software Engineering,0,2026-11-11,No,,,,,,,,,,,,,
 CCI-133,Seyi Adeyemi,Male,Student,Mechanical Engineering,0,2026-11-08,No,,,,,,,,,,,,,
 CCI-134,Ifeoma Okoro,Female,Student,AI Engineering,0,2026-11-15,No,,,,,,,,,,,,,
-CCI-135,Emmanuel Bakare,Male,Professional,Digital Consulting,11,2026-11-21,Yes,14:43,No,No,Yes,Fintech & Software,0,4,3,4,Yes,No,Yes,Yes
+CCI-135,Emmanuel Bakare,Male,Professional,Digital Consulting,11,2026-11-21,Yes,14:43,No,No,Yes,Tech,0,4,3,4,Yes,No,Yes,Yes
 CCI-136,Olumide Nwachukwu,Male,Student,Infrastructure Engineering,0,2026-11-19,No,,,,,,,,,,,,,
 CCI-137,Ibrahim Oladipo,Male,Student,Infrastructure Engineering,0,2026-11-01,No,,,,,,,,,,,,,
 CCI-138,Ebuka Afolayan,Male,Graduate,Mathematics,0,2026-11-02,No,,,,,,,,,,,,,
 CCI-139,Seyi Ogbu,Male,Professional,Software Engineering,6,2026-11-16,No,,,,,,,,,,,,,
 CCI-140,Samuel Odum,Male,Student,Digital Consulting,0,2026-11-19,No,,,,,,,,,,,,,
-CCI-141,Eniola Nnadi,Female,Professional,Mathematics,8,2026-11-18,Yes,13:29,Yes,Yes,No,AI & Data,1,3,1,0,No,No,No,No
+CCI-141,Eniola Nnadi,Female,Professional,Mathematics,8,2026-11-18,Yes,13:29,Yes,Yes,No,Maths,1,3,1,0,No,No,No,No
 CCI-142,Emeka Adeleke,Male,Professional,AI Engineering,4,2026-11-07,No,,,,,,,,,,,,,
 CCI-143,Victor Obi,Male,Student,Digital Consulting,0,2026-11-10,No,,,,,,,,,,,,,
 CCI-144,Temitope Olawale,Female,Graduate,Software Engineering,1,2026-11-17,No,,,,,,,,,,,,,
@@ -167,7 +167,7 @@ CCI-165,Kemi Uzor,Female,Professional,Content Creation,5,2026-11-09,No,,,,,,,,,,
 CCI-166,Emeka Odum,Male,Student,Content Creation,0,2026-11-19,No,,,,,,,,,,,,,
 CCI-167,Abdul Afolabi,Male,Student,Mathematics,0,2026-11-02,No,,,,,,,,,,,,,
 CCI-168,Tolani Akinola,Female,Professional,Content Creation,6,2026-11-17,No,,,,,,,,,,,,,
-CCI-169,Abimbola Obi,Female,Graduate,Software Engineering,1,2026-11-02,Yes,13:45,Yes,No,Yes,AI & Data,0,3,4,6,No,Yes,Yes,Yes
+CCI-169,Abimbola Obi,Female,Graduate,Software Engineering,1,2026-11-02,Yes,13:45,Yes,No,Yes,Tech,0,3,4,6,No,Yes,Yes,Yes
 CCI-170,Funmilayo Ogbu,Female,Graduate,Content Creation,0,2026-11-04,No,,,,,,,,,,,,,
 CCI-171,Uche Obi,Male,Student,Mathematics,0,2026-11-07,No,,,,,,,,,,,,,
 CCI-172,Emmanuel Danjuma,Male,Professional,Infrastructure Engineering,12,2026-11-05,No,,,,,,,,,,,,,
@@ -181,26 +181,26 @@ CCI-179,Rukayat Garba,Female,Student,Mathematics,0,2026-11-09,No,,,,,,,,,,,,,
 CCI-180,Ibrahim Onuoha,Male,Student,Infrastructure Engineering,0,2026-11-01,No,,,,,,,,,,,,,
 CCI-181,Tunde Okeke,Male,Graduate,Founder,0,2026-11-20,No,,,,,,,,,,,,,
 CCI-182,Precious Eze,Female,Professional,AI Engineering,12,2026-11-16,No,,,,,,,,,,,,,
-CCI-183,Ibrahim Abubakar,Male,Graduate,AI Engineering,0,2026-11-12,Yes,13:42,Yes,Yes,Yes,Engineering & Innovation,0,11,7,8,Yes,No,Yes,Yes
+CCI-183,Ibrahim Abubakar,Male,Graduate,AI Engineering,0,2026-11-12,Yes,13:42,Yes,Yes,Yes,Tech,0,11,7,8,Yes,No,Yes,Yes
 CCI-184,Folake Okonkwo,Female,Student,Software Engineering,0,2026-11-08,Yes,13:30,Yes,Yes,Yes,Did not attend,0,6,4,4,No,Yes,No,No
 CCI-185,Uche Nwachukwu,Male,Student,Civil Engineering,0,2026-11-19,No,,,,,,,,,,,,,
-CCI-186,Dayo Ekwueme,Male,Professional,Software Engineering,3,2026-11-01,Yes,14:27,No,Yes,Yes,AI & Data,0,5,1,3,No,No,No,Yes
+CCI-186,Dayo Ekwueme,Male,Professional,Software Engineering,3,2026-11-01,Yes,14:27,No,Yes,Yes,Tech,0,5,1,3,No,No,No,Yes
 CCI-187,David Sanni,Male,Student,Content Creation,0,2026-11-01,No,,,,,,,,,,,,,
 CCI-188,Blessing Odum,Female,Graduate,Content Creation,0,2026-11-11,No,,,,,,,,,,,,,
 CCI-189,Aisha Chukwu,Female,Student,Mechanical Engineering,0,2026-11-16,No,,,,,,,,,,,,,
 CCI-190,Chinedu Akinola,Male,Student,Software Engineering,0,2026-11-04,No,,,,,,,,,,,,,
 CCI-191,Precious Sanni,Female,Professional,Founder,11,2026-11-16,No,,,,,,,,,,,,,
-CCI-192,Omolara Uzor,Female,Professional,AI Engineering,8,2026-11-06,Yes,13:45,Yes,Yes,Yes,Engineering & Innovation,0,9,2,5,No,No,Yes,No
+CCI-192,Omolara Uzor,Female,Professional,AI Engineering,8,2026-11-06,Yes,13:45,Yes,Yes,Yes,Tech,0,9,2,5,No,No,Yes,No
 CCI-193,Uju Onuoha,Female,Student,Software Engineering,0,2026-11-16,No,,,,,,,,,,,,,
 CCI-194,Halima Sanni,Female,Professional,Mechanical Engineering,5,2026-11-06,No,,,,,,,,,,,,,
 CCI-195,Tunde Okafor,Male,Graduate,Software Engineering,0,2026-11-14,No,,,,,,,,,,,,,
 CCI-196,Kelechi Ogunleye,Male,Professional,AI Engineering,4,2026-11-06,No,,,,,,,,,,,,,
-CCI-197,Damilola Yakubu,Female,Graduate,Founder,0,2026-11-12,Yes,13:30,Yes,Yes,No,Fintech & Software,0,11,6,6,Yes,No,Yes,Yes
-CCI-198,Funmilayo Odum,Female,Graduate,Infrastructure Engineering,0,2026-11-15,Yes,14:02,Yes,No,Yes,AI & Data,0,2,1,5,No,Yes,No,Yes
+CCI-197,Damilola Yakubu,Female,Graduate,Founder,0,2026-11-12,Yes,13:30,Yes,Yes,No,Tech,0,11,6,6,Yes,No,Yes,Yes
+CCI-198,Funmilayo Odum,Female,Graduate,Infrastructure Engineering,0,2026-11-15,Yes,14:02,Yes,No,Yes,Tech,0,2,1,5,No,Yes,No,Yes
 CCI-199,Olumide Garba,Male,Graduate,Content Creation,0,2026-11-21,No,,,,,,,,,,,,,
 CCI-200,Yetunde Onyeka,Female,Professional,Content Creation,11,2026-11-20,No,,,,,,,,,,,,,
 CCI-201,Ayomide Adeleke,Male,Student,Content Creation,0,2026-11-12,No,,,,,,,,,,,,,
-CCI-202,Daniel Oke,Male,Graduate,Civil Engineering,1,2026-11-10,Yes,14:28,No,No,Yes,Engineering & Innovation,0,3,1,2,No,No,No,No
+CCI-202,Daniel Oke,Male,Graduate,Civil Engineering,1,2026-11-10,Yes,14:28,No,No,Yes,Engineering,0,3,1,2,No,No,No,No
 CCI-203,Obinna Uzor,Male,Student,AI Engineering,0,2026-11-17,No,,,,,,,,,,,,,
 CCI-204,Zainab Ogbu,Female,Graduate,Software Engineering,1,2026-11-13,No,,,,,,,,,,,,,
 CCI-205,Abdul Ogunbiyi,Male,Professional,Content Creation,8,2026-11-04,No,,,,,,,,,,,,,
@@ -210,23 +210,23 @@ CCI-208,Lanre Ogunleye,Male,Student,Mathematics,0,2026-11-02,No,,,,,,,,,,,,,
 CCI-209,Emeka Nwachukwu,Male,Graduate,Mathematics,1,2026-11-17,No,,,,,,,,,,,,,
 CCI-210,Uju Odum,Female,Student,Infrastructure Engineering,0,2026-11-20,No,,,,,,,,,,,,,
 CCI-211,Kemi Ogbu,Female,Student,Infrastructure Engineering,0,2026-11-09,No,,,,,,,,,,,,,
-CCI-212,Amaka Adewale,Female,Professional,AI Engineering,4,2026-11-20,Yes,13:59,No,Yes,Yes,Engineering & Innovation,0,6,3,3,No,No,No,No
+CCI-212,Amaka Adewale,Female,Professional,AI Engineering,4,2026-11-20,Yes,13:59,No,Yes,Yes,Tech,0,6,3,3,No,No,No,No
 CCI-213,Ibrahim Okoro,Male,Professional,Civil Engineering,9,2026-11-05,No,,,,,,,,,,,,,
 CCI-214,Kelechi Akinola,Male,Graduate,Infrastructure Engineering,2,2026-11-18,No,,,,,,,,,,,,,
 CCI-215,Tobi Afolabi,Male,Student,AI Engineering,0,2026-11-18,No,,,,,,,,,,,,,
 CCI-216,Blessing Adeyemi,Female,Professional,Software Engineering,2,2026-11-14,No,,,,,,,,,,,,,
 CCI-217,Esther Akinola,Female,Graduate,Software Engineering,0,2026-11-03,No,,,,,,,,,,,,,
-CCI-218,Ifeoma Ibrahim,Female,Student,Digital Consulting,0,2026-11-19,Yes,13:32,Yes,Yes,Yes,Fintech & Software,0,4,1,0,Yes,No,No,No
+CCI-218,Ifeoma Ibrahim,Female,Student,Digital Consulting,0,2026-11-19,Yes,13:32,Yes,Yes,Yes,Tech,0,4,1,0,Yes,No,No,No
 CCI-219,Zainab Adebayo,Female,Student,Software Engineering,0,2026-11-08,No,,,,,,,,,,,,,
-CCI-220,Simi Oladipo,Female,Graduate,Software Engineering,1,2026-11-16,Yes,13:15,Yes,Yes,Yes,Engineering & Innovation,0,4,0,1,No,No,Yes,No
+CCI-220,Simi Oladipo,Female,Graduate,Software Engineering,1,2026-11-16,Yes,13:15,Yes,Yes,Yes,Engineering,0,4,0,1,No,No,Yes,No
 CCI-221,David Afolabi,Male,Student,Content Creation,0,2026-11-19,No,,,,,,,,,,,,,
 CCI-222,Ibrahim Afolayan,Male,Student,AI Engineering,0,2026-11-06,No,,,,,,,,,,,,,
 CCI-223,Aisha Uzoma,Female,Professional,Civil Engineering,10,2026-11-03,No,,,,,,,,,,,,,
-CCI-224,Eniola Danjuma,Female,Graduate,Software Engineering,2,2026-11-13,Yes,13:18,Yes,No,Yes,AI & Data,1,2,5,5,No,Yes,No,Yes
-CCI-225,Temitope Lawal,Female,Student,AI Engineering,0,2026-11-11,Yes,14:41,No,Yes,Yes,Engineering & Innovation,0,5,1,3,No,No,Yes,No
-CCI-226,Blessing Okonkwo,Female,Graduate,Mechanical Engineering,1,2026-11-16,Yes,13:58,Yes,No,Yes,Fintech & Software,1,2,4,5,No,No,Yes,No
+CCI-224,Eniola Danjuma,Female,Graduate,Software Engineering,2,2026-11-13,Yes,13:18,Yes,No,Yes,Maths,1,2,5,5,No,Yes,No,Yes
+CCI-225,Temitope Lawal,Female,Student,AI Engineering,0,2026-11-11,Yes,14:41,No,Yes,Yes,Science,0,5,1,3,No,No,Yes,No
+CCI-226,Blessing Okonkwo,Female,Graduate,Mechanical Engineering,1,2026-11-16,Yes,13:58,Yes,No,Yes,Engineering,1,2,4,5,No,No,Yes,No
 CCI-227,Babajide Okafor,Male,Student,AI Engineering,0,2026-11-09,No,,,,,,,,,,,,,
-CCI-228,Joy Abubakar,Female,Professional,Mechanical Engineering,7,2026-11-06,Yes,13:34,Yes,Yes,Yes,Fintech & Software,0,2,0,2,No,No,No,No
+CCI-228,Joy Abubakar,Female,Professional,Mechanical Engineering,7,2026-11-06,Yes,13:34,Yes,Yes,Yes,Engineering,0,2,0,2,No,No,No,No
 CCI-229,Deborah Onyeka,Female,Graduate,Infrastructure Engineering,1,2026-11-21,No,,,,,,,,,,,,,
 CCI-230,Jide Oyelaran,Male,Student,Software Engineering,0,2026-11-01,No,,,,,,,,,,,,,
 CCI-231,Tolani Uzor,Female,Graduate,Founder,0,2026-11-13,No,,,,,,,,,,,,,
@@ -235,7 +235,7 @@ CCI-233,Chiamaka Afolayan,Female,Graduate,Software Engineering,0,2026-11-12,No,,
 CCI-234,Ibrahim Oke,Male,Student,Mechanical Engineering,0,2026-11-03,No,,,,,,,,,,,,,
 CCI-235,Bayo Uzor,Male,Graduate,AI Engineering,1,2026-11-11,No,,,,,,,,,,,,,
 CCI-236,Kayode Ogunbiyi,Male,Professional,Civil Engineering,7,2026-11-15,No,,,,,,,,,,,,,
-CCI-237,Deborah Lawal,Female,Graduate,Software Engineering,0,2026-11-15,Yes,14:40,No,Yes,Yes,Fintech & Software,0,3,1,1,No,No,No,No
+CCI-237,Deborah Lawal,Female,Graduate,Software Engineering,0,2026-11-15,Yes,14:40,No,Yes,Yes,Tech,0,3,1,1,No,No,No,No
 CCI-238,Chiamaka Adebayo,Female,Student,Digital Consulting,0,2026-11-09,No,,,,,,,,,,,,,
 CCI-239,Ikenna Garba,Male,Professional,Content Creation,11,2026-11-14,No,,,,,,,,,,,,,
 CCI-240,Lara Oladipo,Female,Professional,Content Creation,11,2026-11-15,No,,,,,,,,,,,,,
@@ -244,32 +244,32 @@ CCI-242,Obinna Bello,Male,Student,Software Engineering,0,2026-11-05,No,,,,,,,,,,
 CCI-243,Ebuka Nwankwo,Male,Graduate,AI Engineering,1,2026-11-21,No,,,,,,,,,,,,,
 CCI-244,Michael Okonkwo,Male,Professional,Software Engineering,9,2026-11-01,No,,,,,,,,,,,,,
 CCI-245,Musa Nwankwo,Male,Student,Mathematics,0,2026-11-05,No,,,,,,,,,,,,,
-CCI-246,Temitope Oyelaran,Female,Graduate,Founder,0,2026-11-19,Yes,13:19,Yes,Yes,Yes,Fintech & Software,1,9,3,6,Yes,No,No,No
+CCI-246,Temitope Oyelaran,Female,Graduate,Founder,0,2026-11-19,Yes,13:19,Yes,Yes,Yes,Tech,1,9,3,6,Yes,No,No,No
 CCI-247,Chukwuemeka Lawal,Male,Graduate,Digital Consulting,0,2026-11-11,No,,,,,,,,,,,,,
 CCI-248,Rukayat Okoro,Female,Student,Mechanical Engineering,0,2026-11-10,No,,,,,,,,,,,,,
 CCI-249,Jide Nwankwo,Male,Graduate,Mathematics,0,2026-11-18,No,,,,,,,,,,,,,
 CCI-250,Zainab Ekwueme,Female,Graduate,Infrastructure Engineering,2,2026-11-07,No,,,,,,,,,,,,,
 CCI-251,Dayo Ogunleye,Male,Student,Software Engineering,0,2026-11-06,No,,,,,,,,,,,,,
 CCI-252,Lanre Garba,Male,Professional,Software Engineering,12,2026-11-18,Yes,13:37,Yes,No,Yes,Did not attend,1,2,4,5,No,Yes,No,No
-CCI-253,Simi Ogunleye,Female,Graduate,Digital Consulting,1,2026-11-01,Yes,13:43,Yes,Yes,Yes,AI & Data,2,10,5,6,Yes,No,Yes,No
+CCI-253,Simi Ogunleye,Female,Graduate,Digital Consulting,1,2026-11-01,Yes,13:43,Yes,Yes,Yes,Tech,2,10,5,6,Yes,No,Yes,No
 CCI-254,Gbenga Nnadi,Male,Graduate,Software Engineering,1,2026-11-17,No,,,,,,,,,,,,,
 CCI-255,Bolaji Sanni,Male,Professional,Content Creation,3,2026-11-12,Yes,13:59,No,Yes,Yes,Did not attend,0,4,0,0,No,No,Yes,Yes
 CCI-256,Akin Ige,Male,Graduate,Content Creation,0,2026-11-17,No,,,,,,,,,,,,,
 CCI-257,Ijeoma Ajayi,Female,Professional,Infrastructure Engineering,7,2026-11-12,No,,,,,,,,,,,,,
-CCI-258,Akin Okafor,Male,Student,Infrastructure Engineering,0,2026-11-09,Yes,14:52,No,Yes,Yes,Engineering & Innovation,0,8,2,5,No,Yes,No,Yes
+CCI-258,Akin Okafor,Male,Student,Infrastructure Engineering,0,2026-11-09,Yes,14:52,No,Yes,Yes,Engineering,0,8,2,5,No,Yes,No,Yes
 CCI-259,Lanre Okonkwo,Male,Professional,AI Engineering,2,2026-11-06,No,,,,,,,,,,,,,
 CCI-260,Tunde Odum,Male,Student,Civil Engineering,0,2026-11-08,No,,,,,,,,,,,,,
-CCI-261,Yusuf Nwankwo,Male,Professional,Civil Engineering,8,2026-11-14,Yes,13:37,Yes,Yes,Yes,Fintech & Software,0,4,0,1,No,No,No,Yes
+CCI-261,Yusuf Nwankwo,Male,Professional,Civil Engineering,8,2026-11-14,Yes,13:37,Yes,Yes,Yes,Tech,0,4,0,1,No,No,No,Yes
 CCI-262,Blessing Chukwu,Female,Professional,Software Engineering,12,2026-11-05,No,,,,,,,,,,,,,
 CCI-263,Gbenga Okonkwo,Male,Professional,Civil Engineering,12,2026-11-20,No,,,,,,,,,,,,,
 CCI-264,Mariam Adebayo,Female,Graduate,Digital Consulting,0,2026-11-19,No,,,,,,,,,,,,,
 CCI-265,Dayo Ibrahim,Male,Student,Content Creation,0,2026-11-18,No,,,,,,,,,,,,,
 CCI-266,Collins Salami,Male,Student,Mechanical Engineering,0,2026-11-10,No,,,,,,,,,,,,,
-CCI-267,Chiamaka Fashola,Female,Student,Software Engineering,0,2026-11-18,Yes,14:30,No,Yes,Yes,AI & Data,0,7,3,4,No,No,Yes,No
+CCI-267,Chiamaka Fashola,Female,Student,Software Engineering,0,2026-11-18,Yes,14:30,No,Yes,Yes,Engineering,0,7,3,4,No,No,Yes,No
 CCI-268,Kunle Okeke,Male,Graduate,Software Engineering,1,2026-11-01,No,,,,,,,,,,,,,
 CCI-269,Bolaji Ige,Male,Professional,Mechanical Engineering,6,2026-11-11,No,,,,,,,,,,,,,
 CCI-270,Jide Ajibade,Male,Professional,Mechanical Engineering,3,2026-11-11,No,,,,,,,,,,,,,
-CCI-271,Esther Obi,Female,Graduate,Software Engineering,2,2026-11-05,Yes,13:38,Yes,Yes,Yes,Engineering & Innovation,0,9,2,6,Yes,Yes,No,No
+CCI-271,Esther Obi,Female,Graduate,Software Engineering,2,2026-11-05,Yes,13:38,Yes,Yes,Yes,Tech,0,9,2,6,Yes,Yes,No,No
 CCI-272,Michael Oke,Male,Student,Digital Consulting,0,2026-11-18,No,,,,,,,,,,,,,
 CCI-273,Precious Afolayan,Female,Student,Civil Engineering,0,2026-11-03,No,,,,,,,,,,,,,
 CCI-274,Deborah Odum,Female,Student,Software Engineering,0,2026-11-15,No,,,,,,,,,,,,,
@@ -277,15 +277,15 @@ CCI-275,Collins Oke,Male,Student,AI Engineering,0,2026-11-07,Yes,13:19,Yes,Yes,N
 CCI-276,Chidi Bakare,Male,Professional,Software Engineering,5,2026-11-09,No,,,,,,,,,,,,,
 CCI-277,Olumide Onuoha,Male,Professional,Software Engineering,2,2026-11-06,No,,,,,,,,,,,,,
 CCI-278,Precious Adeleke,Female,Professional,Content Creation,11,2026-11-19,No,,,,,,,,,,,,,
-CCI-279,Bayo Ogunleye,Male,Student,Mathematics,0,2026-11-01,Yes,13:23,Yes,Yes,No,Engineering & Innovation,0,4,0,2,No,Yes,No,No
-CCI-280,Samuel Ajibade,Male,Graduate,Software Engineering,0,2026-11-21,Yes,13:16,Yes,Yes,Yes,Fintech & Software,0,10,5,5,No,Yes,Yes,No
+CCI-279,Bayo Ogunleye,Male,Student,Mathematics,0,2026-11-01,Yes,13:23,Yes,Yes,No,Maths,0,4,0,2,No,Yes,No,No
+CCI-280,Samuel Ajibade,Male,Graduate,Software Engineering,0,2026-11-21,Yes,13:16,Yes,Yes,Yes,Tech,0,10,5,5,No,Yes,Yes,No
 CCI-281,Tolani Danjuma,Female,Student,Software Engineering,0,2026-11-15,No,,,,,,,,,,,,,
 CCI-282,Blessing Lawal,Female,Professional,Software Engineering,12,2026-11-15,No,,,,,,,,,,,,,
-CCI-283,Victor Adewale,Male,Student,Digital Consulting,0,2026-11-17,Yes,13:26,Yes,Yes,Yes,AI & Data,0,4,0,2,No,No,No,No
+CCI-283,Victor Adewale,Male,Student,Digital Consulting,0,2026-11-17,Yes,13:26,Yes,Yes,Yes,Engineering,0,4,0,2,No,No,No,No
 CCI-284,Busola Obi,Female,Graduate,Civil Engineering,0,2026-11-04,No,,,,,,,,,,,,,
 CCI-285,Bolaji Obi,Male,Student,Content Creation,0,2026-11-02,No,,,,,,,,,,,,,
-CCI-286,Victor Ekwueme,Male,Graduate,Mathematics,1,2026-11-19,Yes,13:35,Yes,Yes,Yes,AI & Data,0,6,3,5,No,No,Yes,No
-CCI-287,Nnamdi Onuoha,Male,Student,Infrastructure Engineering,0,2026-11-04,Yes,14:09,No,Yes,Yes,Engineering & Innovation,0,5,2,2,No,Yes,No,No
+CCI-286,Victor Ekwueme,Male,Graduate,Mathematics,1,2026-11-19,Yes,13:35,Yes,Yes,Yes,Tech,0,6,3,5,No,No,Yes,No
+CCI-287,Nnamdi Onuoha,Male,Student,Infrastructure Engineering,0,2026-11-04,Yes,14:09,No,Yes,Yes,Tech,0,5,2,2,No,Yes,No,No
 CCI-288,Victor Olawale,Male,Graduate,Mechanical Engineering,1,2026-11-17,Yes,14:08,No,Yes,Yes,Did not attend,0,6,3,1,No,No,No,No
 CCI-289,Funmilayo Onyeka,Female,Student,Mathematics,0,2026-11-03,No,,,,,,,,,,,,,
 CCI-290,Temitope Ajayi,Female,Professional,Mechanical Engineering,2,2026-11-08,No,,,,,,,,,,,,,
@@ -295,19 +295,19 @@ CCI-293,Folake Fashola,Female,Student,Civil Engineering,0,2026-11-13,No,,,,,,,,,
 CCI-294,Damilola Oladipo,Female,Professional,Mathematics,10,2026-11-09,No,,,,,,,,,,,,,
 CCI-295,Ijeoma Oke,Female,Graduate,Mathematics,1,2026-11-21,No,,,,,,,,,,,,,
 CCI-296,Lara Adeleke,Female,Student,Civil Engineering,0,2026-11-20,No,,,,,,,,,,,,,
-CCI-297,Abimbola Ajibade,Female,Student,Software Engineering,0,2026-11-07,Yes,13:29,Yes,Yes,Yes,AI & Data,0,10,4,6,Yes,Yes,Yes,No
+CCI-297,Abimbola Ajibade,Female,Student,Software Engineering,0,2026-11-07,Yes,13:29,Yes,Yes,Yes,Tech,0,10,4,6,Yes,Yes,Yes,No
 CCI-298,Oluwaseun Olawale,Female,Student,Civil Engineering,0,2026-11-21,No,,,,,,,,,,,,,
 CCI-299,Chiamaka Sanni,Female,Graduate,Mechanical Engineering,0,2026-11-15,No,,,,,,,,,,,,,
 CCI-300,Yetunde Ajayi,Female,Student,Digital Consulting,0,2026-11-19,No,,,,,,,,,,,,,
 CCI-301,Michael Yakubu,Male,Student,Mechanical Engineering,0,2026-11-02,No,,,,,,,,,,,,,
 CCI-302,Bayo Afolabi,Male,Professional,AI Engineering,8,2026-11-18,No,,,,,,,,,,,,,
-CCI-303,Oluwaseun Okoro,Female,Professional,Civil Engineering,4,2026-11-19,Yes,14:29,No,Yes,No,Fintech & Software,0,2,0,0,No,No,No,Yes
+CCI-303,Oluwaseun Okoro,Female,Professional,Civil Engineering,4,2026-11-19,Yes,14:29,No,Yes,No,Engineering,0,2,0,0,No,No,No,Yes
 CCI-304,Nnamdi Oke,Male,Student,Mechanical Engineering,0,2026-11-12,No,,,,,,,,,,,,,
 CCI-305,Chukwuemeka Ibrahim,Male,Student,Software Engineering,0,2026-11-14,No,,,,,,,,,,,,,
-CCI-306,Joy Okonkwo,Female,Graduate,Digital Consulting,0,2026-11-18,Yes,13:19,Yes,Yes,Yes,Engineering & Innovation,0,3,0,0,Yes,No,Yes,No
+CCI-306,Joy Okonkwo,Female,Graduate,Digital Consulting,0,2026-11-18,Yes,13:19,Yes,Yes,Yes,Science,0,3,0,0,Yes,No,Yes,No
 CCI-307,Uche Danjuma,Male,Student,Mechanical Engineering,0,2026-11-13,No,,,,,,,,,,,,,
 CCI-308,Victor Nnadi,Male,Graduate,Mechanical Engineering,0,2026-11-09,No,,,,,,,,,,,,,
-CCI-309,Eniola Onyeka,Female,Professional,Mathematics,5,2026-11-09,Yes,13:20,Yes,Yes,Yes,Engineering & Innovation,0,5,3,2,No,No,Yes,No
+CCI-309,Eniola Onyeka,Female,Professional,Mathematics,5,2026-11-09,Yes,13:20,Yes,Yes,Yes,Maths,0,5,3,2,No,No,Yes,No
 CCI-310,Uche Bello,Male,Student,Civil Engineering,0,2026-11-05,No,,,,,,,,,,,,,
 CCI-311,Babajide Nnadi,Male,Student,Software Engineering,0,2026-11-01,No,,,,,,,,,,,,,
 CCI-312,Kemi Bello,Female,Professional,Digital Consulting,4,2026-11-01,No,,,,,,,,,,,,,
@@ -329,12 +329,12 @@ CCI-327,Aisha Yakubu,Female,Student,Mathematics,0,2026-11-12,No,,,,,,,,,,,,,
 CCI-328,Eniola Uzoma,Female,Graduate,Digital Consulting,0,2026-11-21,No,,,,,,,,,,,,,
 CCI-329,Ibrahim Okafor,Male,Student,Infrastructure Engineering,0,2026-11-10,No,,,,,,,,,,,,,
 CCI-330,Lara Mohammed,Female,Graduate,Infrastructure Engineering,2,2026-11-18,No,,,,,,,,,,,,,
-CCI-331,Collins Bakare,Male,Student,Software Engineering,0,2026-11-21,Yes,13:38,Yes,Yes,Yes,Fintech & Software,0,2,0,0,No,No,No,No
-CCI-332,Bayo Oladipo,Male,Professional,Mechanical Engineering,1,2026-11-10,Yes,13:20,Yes,Yes,Yes,Fintech & Software,0,2,3,0,No,No,No,Yes
-CCI-333,Samuel Yakubu,Male,Graduate,Infrastructure Engineering,1,2026-11-03,Yes,14:51,No,Yes,Yes,AI & Data,0,11,5,5,No,Yes,No,No
+CCI-331,Collins Bakare,Male,Student,Software Engineering,0,2026-11-21,Yes,13:38,Yes,Yes,Yes,Maths,0,2,0,0,No,No,No,No
+CCI-332,Bayo Oladipo,Male,Professional,Mechanical Engineering,1,2026-11-10,Yes,13:20,Yes,Yes,Yes,Tech,0,2,3,0,No,No,No,Yes
+CCI-333,Samuel Yakubu,Male,Graduate,Infrastructure Engineering,1,2026-11-03,Yes,14:51,No,Yes,Yes,Tech,0,11,5,5,No,Yes,No,No
 CCI-334,Ifeanyi Nwankwo,Male,Student,Mathematics,0,2026-11-20,No,,,,,,,,,,,,,
 CCI-335,Ibrahim Onyeka,Male,Student,Content Creation,0,2026-11-17,No,,,,,,,,,,,,,
-CCI-336,Tunde Adewale,Male,Student,Digital Consulting,0,2026-11-09,Yes,13:43,Yes,Yes,Yes,Fintech & Software,0,5,1,3,Yes,Yes,Yes,No
+CCI-336,Tunde Adewale,Male,Student,Digital Consulting,0,2026-11-09,Yes,13:43,Yes,Yes,Yes,Science,0,5,1,3,Yes,Yes,Yes,No
 CCI-337,Mariam Bello,Female,Student,Infrastructure Engineering,0,2026-11-12,No,,,,,,,,,,,,,
 CCI-338,Lanre Akinola,Male,Professional,Content Creation,1,2026-11-04,No,,,,,,,,,,,,,
 CCI-339,Babajide Olawale,Male,Graduate,Mathematics,0,2026-11-17,No,,,,,,,,,,,,,
@@ -356,7 +356,7 @@ CCI-354,Fatima Oladipo,Female,Professional,Infrastructure Engineering,12,2026-11
 CCI-355,Bukola Ogunleye,Female,Professional,Software Engineering,4,2026-11-17,No,,,,,,,,,,,,,
 CCI-356,Omolara Uzoma,Female,Professional,Software Engineering,8,2026-11-14,No,,,,,,,,,,,,,
 CCI-357,Abimbola Okeke,Female,Student,Content Creation,0,2026-11-16,No,,,,,,,,,,,,,
-CCI-358,Ruth Ajibade,Female,Student,Content Creation,0,2026-11-10,Yes,13:37,Yes,Yes,No,AI & Data,0,10,5,7,No,No,Yes,No
+CCI-358,Ruth Ajibade,Female,Student,Content Creation,0,2026-11-10,Yes,13:37,Yes,Yes,No,Engineering,0,10,5,7,No,No,Yes,No
 CCI-359,Ebuka Eze,Male,Student,Civil Engineering,0,2026-11-12,No,,,,,,,,,,,,,
 CCI-360,Bukola Chukwu,Female,Graduate,Mathematics,1,2026-11-12,No,,,,,,,,,,,,,
 CCI-361,Samuel Adeleke,Male,Professional,Mechanical Engineering,6,2026-11-17,No,,,,,,,,,,,,,

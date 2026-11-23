@@ -206,3 +206,65 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .tier-active { background: var(--tier-active-bg); color: var(--tier-active-fg); }
 .tier-emerging { background: var(--tier-emerging-bg); color: var(--tier-emerging-fg); }
 .tier-passive { background: var(--tier-passive-bg); color: var(--tier-passive-fg); }
+
+/* ── Key findings: ruled list, number on the left ── */
+.findings { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.findings li {
+  display: grid; gap: 6px 28px; padding: 20px 0; border-bottom: 1px solid var(--rule);
+}
+@media (min-width: 640px) { .findings li { grid-template-columns: 168px minmax(0, 1fr); } }
+.finding-stat { display: grid; align-content: start; gap: 2px; }
+.finding-value { font: 750 2.4rem/1 var(--display); letter-spacing: -0.035em; font-variant-numeric: tabular-nums; }
+.finding-unit { font-size: 0.85rem; color: var(--ink-2); }
+.finding-text { display: grid; gap: 6px; max-width: 62ch; }
+.finding-headline { font: 650 1.12rem/1.35 var(--display); letter-spacing: -0.01em; text-wrap: pretty; }
+.finding-detail { color: var(--ink-2); font-size: 0.95rem; text-wrap: pretty; }
+.finding-link { font-size: 0.9rem; font-weight: 600; justify-self: start; }
+.empty-inline { color: var(--ink-2); padding: 20px 0; border-top: 2px solid var(--ink); }
+
+/* ── Tier mix ── */
+.legend { list-style: none; margin: 0 0 14px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.85rem; }
+.legend li { display: inline-flex; align-items: center; gap: 7px; }
+.legend-swatch { width: 12px; height: 12px; border-radius: 3px; }
+.legend-swatch.tier-super, .mix-seg.tier-super { background: var(--tier-super); }
+.legend-swatch.tier-active, .mix-seg.tier-active { background: var(--tier-active); }
+.legend-swatch.tier-emerging, .mix-seg.tier-emerging { background: var(--tier-emerging); }
+.legend-swatch.tier-passive, .mix-seg.tier-passive { background: var(--tier-passive); }
+.mix-table { min-width: 640px; }
+.mix-table tbody th, .mix-table tfoot th { font-weight: 600; width: 1%; }
+.mix-n { margin-left: 8px; font-weight: 400; color: var(--ink-2); font-size: 0.82rem; font-variant-numeric: tabular-nums; }
+.mix-table td:nth-child(2) { width: 50%; }
+.mix-bar { display: flex; height: 22px; border-radius: 4px; overflow: hidden; gap: 2px; }
+.mix-seg {
+  display: grid; place-items: center; min-width: 3px; flex-basis: 0;
+  color: #fff; font-size: 0.72rem; font-weight: 700; font-variant-numeric: tabular-nums;
+}
+.mix-seg.tier-emerging, .mix-seg.tier-passive { color: #1a1514; }
+.mix-count { color: var(--ink-2); width: 1%; }
+.table tfoot th, .table tfoot td { border-top: 2px solid var(--ink); border-bottom: 0; font-weight: 600; }
+.table tbody tr.static, .mix-table tbody tr { cursor: default; }
+.mix-table tbody tr:hover, .table tbody tr.static:hover { background: none; }
+
+/* ── Timing: small labelled bar charts in a grid ── */
+.bars-grid { display: grid; gap: 28px 40px; }
+@media (min-width: 768px) { .bars-grid { grid-template-columns: 1fr 1fr; } }
+.bars { margin: 0; }
+.bars figcaption { font: 650 1rem/1.3 var(--display); padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+.bars-table { width: 100%; border-collapse: collapse; }
+.bars-table th, .bars-table td { padding: 10px 0; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: middle; }
+.bars-table th { font-weight: 600; font-size: 0.92rem; width: 42%; padding-right: 12px; }
+.bars-n { display: block; font-weight: 400; font-size: 0.8rem; color: var(--ink-2); }
+.bars-cell { display: flex; align-items: center; gap: 10px; }
+.bars-track { flex: 1; height: 8px; background: var(--sunk); border-radius: 4px; overflow: hidden; }
+.bars-fill { display: block; height: 100%; width: calc(var(--share) * 100%); background: var(--ink); border-radius: inherit; }
+.bars-value { font: 750 1rem var(--display); min-width: 3.2ch; }
+
+/* ── Comparisons ── */
+.cmp-table { min-width: 860px; }
+.cmp-table tbody th { font-weight: 600; }
+.cmp-cell { min-width: 96px; }
+.cmp-bar { display: block; height: 2px; margin: 5px 0 0 auto; width: 56px; background: var(--rule); border-radius: 1px; position: relative; }
+.cmp-bar span { position: absolute; inset: 0 auto 0 0; width: calc(var(--share) * 100%); background: var(--ink-2); border-radius: inherit; }
+.cmp-best { font: 750 1rem var(--display); }
+.cmp-best .cmp-bar span { background: var(--brand); }
+.small-group { margin-left: 8px; font-size: 0.75rem; font-weight: 500; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 4px; padding: 1px 6px; }
