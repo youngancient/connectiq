@@ -8,7 +8,7 @@ export const SITE = {
   author: {
     name: 'Jude Okoye',
     website: 'https://judetochy.vercel.app/',
-    email: 'TODO: your email',
+    email: 'judetochyokoye@gmail.com',
     github: 'https://github.com/youngancient/connectiq',
     linkedin: 'TODO: https://www.linkedin.com/in/<user>',
   },

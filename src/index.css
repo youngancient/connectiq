@@ -78,6 +78,12 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .fallback p { color: var(--ink-2); }
 
 /* ── Header: a thin red rule is the only full-width brand moment ── */
+.site-footer { border-top: 1px solid var(--rule); margin-top: 72px; padding: 28px 0 36px; font-size: 0.88rem; color: var(--ink-2); }
+.footer-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px 24px; }
+.footer-row p { margin: 0; }
+.footer-row nav { display: flex; gap: 20px; }
+.site-footer a { color: inherit; text-underline-offset: 3px; }
+.site-footer a:hover { color: var(--brand); }
 .site-header { border-top: 4px solid var(--brand); border-bottom: 1px solid var(--rule); }
 .header-row { display: flex; align-items: center; justify-content: space-between; height: 60px; }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; font: 600 1.2rem/1 var(--display); letter-spacing: -0.02em; }
@@ -439,7 +445,7 @@ button.finding-link { padding: 0; font-size: 0.9rem; font-weight: 600; justify-s
 .brief .report-body li::marker { color: var(--ink-2); }
 
 @media print {
-  .site-header, .skip-link { display: none; }
+  .site-header, .site-footer, .skip-link { display: none; }
   :root, :root[data-theme='dark'] {
     --paper: #fff; --ink: #000; --ink-2: #444; --rule: #ccc; --brand: #b20000;
   }

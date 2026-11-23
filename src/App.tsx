@@ -4,6 +4,7 @@ import { AttendeeProfile } from './components/AttendeeProfile'
 import { RoomChart } from './components/charts/RoomChart'
 import { Comparisons } from './components/Comparisons'
 import { EditionBar } from './components/EditionBar'
+import { Footer } from './components/Footer'
 import { Funnel } from './components/Funnel'
 import { Header, Intro } from './components/Header'
 import { KeyFindings } from './components/KeyFindings'
@@ -77,6 +78,7 @@ export default function App() {
         <SectionBoundary name="Timing and networking"><Timing /></SectionBoundary>
         <SectionBoundary name="Group comparisons"><Comparisons /></SectionBoundary>
       </main>
+      <Footer />
       <SectionBoundary name="Attendee profile"><AttendeeProfile /></SectionBoundary>
       <UploadDialog
         open={uploading}

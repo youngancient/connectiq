@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { Header } from '../components/Header'
+import { Footer } from '../components/Footer'
 import { ReportSection } from '../components/ReportSection'
 import { SITE } from '../config/site'
 import { loadEvent } from '../data/events'
@@ -135,6 +136,7 @@ export function BriefPage() {
             </ul>
           </ReportSection>
       </main>
+      <Footer page="brief" />
     </>
   )
 }
