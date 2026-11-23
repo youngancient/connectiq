@@ -59,10 +59,13 @@ describe('Ask the Data catalogue', () => {
     expect(a.sentence).toMatch(/^Only slightly/)
   })
 
-  it('gives every name row an attendee id', () => {
+  it('gives every name row the id of a scored attendee', () => {
+    const scoredIds = new Set(scored.map((a) => a.registrant.id))
     for (const question of QUESTIONS) {
       const t = question.answer(ctx).table
-      if (t?.ids) expect(t.ids).toHaveLength(t.rows.length)
+      if (!t?.ids) continue
+      expect(t.ids).toHaveLength(t.rows.length)
+      for (const id of t.ids) expect(scoredIds.has(id), `${question.id}: ${id}`).toBe(true)
     }
   })
 

@@ -11,7 +11,7 @@ const scored = scoreAll(registrants, event.settings)
 describe('analytics used by findings', () => {
   it('splits arrivals into three bands from the schedule', () => {
     const bands = byArrival(scored, event)
-    expect(bands.map((b) => b.key)).toEqual(['By 1:45pm', '1:46pm–2:29pm', '2:30pm or later'])
+    expect(bands.map((b) => b.key)).toEqual(['By 2:30pm', '2:31pm–3:14pm', '3:15pm or later'])
     expect(bands.reduce((n, b) => n + b.n, 0)).toBe(scored.length)
   })
 

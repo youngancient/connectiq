@@ -1,6 +1,8 @@
 import { useMemo, useRef, type CSSProperties } from 'react'
 import { AREA_LABELS, AREAS, type AreaKey } from '../engine/scoring'
 import { rebalance, toPercents, toWeights } from '../engine/weights'
+import { attendeesCsv, exportFileName } from '../engine/export'
+import { downloadText } from '../lib/download'
 import { useDashboard } from '../state/dashboard'
 import { ReportSection } from './ReportSection'
 
@@ -12,7 +14,7 @@ const HINT: Record<AreaKey, string> = {
 }
 
 export function ModelControls() {
-  const { settings, setSettings, resetSettings, isDefault, defaults } = useDashboard()
+  const { settings, setSettings, resetSettings, isDefault, defaults, scored, event } = useDashboard()
   const pct = useMemo(() => toPercents(settings.weights), [settings.weights])
   const defaultPct = useMemo(() => toPercents(defaults.weights), [defaults.weights])
 
@@ -35,6 +37,13 @@ export function ModelControls() {
         <div className="weights-actions">
           <button type="button" className="btn" onClick={reset} disabled={isDefault}>
             Reset to default weights
+          </button>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => downloadText(exportFileName(event.id, 'full results', [], !isDefault), attendeesCsv(scored))}
+          >
+            Export full results
           </button>
           <p className="weights-status" aria-live="polite">
             {isDefault ? 'Using the default weights.' : 'Custom weights. Ranks show ▲▼ against the defaults.'}

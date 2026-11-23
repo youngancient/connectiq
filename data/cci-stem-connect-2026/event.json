@@ -5,18 +5,18 @@
   "timezone": "Africa/Lagos",
   "synthetic": true,
   "schedule": [
-    { "session": "Check-in opens", "start": "13:15" },
-    { "session": "Keynote", "start": "13:45", "end": "14:30" },
-    { "session": "Networking", "start": "14:30", "end": "15:15" },
-    { "session": "Panel discussion", "start": "15:15", "end": "16:15" },
-    { "session": "Short break", "start": "16:15", "end": "16:30" },
-    { "session": "Breakout sessions (Science, Tech, Engineering, Maths)", "start": "16:30", "end": "17:30" }
+    { "session": "Check-in opens", "start": "14:00" },
+    { "session": "Keynote", "start": "14:30", "end": "15:15" },
+    { "session": "Networking", "start": "15:15", "end": "16:00" },
+    { "session": "Panel discussion", "start": "16:00", "end": "17:00" },
+    { "session": "Short break", "start": "17:00", "end": "17:15" },
+    { "session": "Breakout sessions (Science, Tech, Engineering, Maths)", "start": "17:15", "end": "18:15" }
   ],
   "settings": {
     "weights": { "people": 0.35, "opportunity": 0.35, "presence": 0.15, "visibility": 0.15 },
     "caps": { "connections": 10, "opportunities": 4, "followups": 5, "questions": 2 },
-    "eventStart": "13:45",
-    "latestCheckin": "15:00",
+    "eventStart": "14:30",
+    "latestCheckin": "15:45",
     "tiers": { "super": 75, "active": 55, "emerging": 35 }
   }
 }

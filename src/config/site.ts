@@ -6,12 +6,14 @@ export const SITE = {
   name: 'ConnectIQ',
   tagline: 'How well each attendee used the event to connect with people and opportunities',
   author: {
-    name: 'TODO: your name',
+    name: 'Jude Okoye',
+    website: 'https://judetochy.vercel.app/',
     email: 'TODO: your email',
-    github: 'TODO: https://github.com/<user>/connectiq',
+    github: 'https://github.com/youngancient/connectiq',
     linkedin: 'TODO: https://www.linkedin.com/in/<user>',
   },
-  briefPath: '/brief',
+  /** The explainer page. /brief is kept as an alias so older links still work. */
+  howItWorksPath: '/about',
 } as const
 
 export const THRESHOLDS = {

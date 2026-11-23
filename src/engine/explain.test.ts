@@ -26,7 +26,7 @@ describe('explainScore', () => {
     expect(ex.people[0]).toEqual({ label: '12 connections (capped at 10)', points: 60, max: 60 })
     expect(ex.people[1]).toEqual({ label: 'Joined the networking session', points: 20, max: 20 })
     expect(ex.people[2]).toEqual({ label: 'Did not connect with a speaker', points: 0, max: 20 })
-    expect(ex.presence[0].label).toBe('Checked in at 1:54pm (88% punctuality)')
+    expect(ex.presence[0].label).toBe('Checked in at 2:39pm (88% punctuality)')
     expect(ex.presence[1]).toEqual({ label: 'Attended 4 of 4 sessions', points: 60, max: 60 })
   })
 

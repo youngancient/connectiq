@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { GROUPS, QUESTIONS, type AnswerTable } from '../engine/ask/catalogue'
+import { attendeesCsv, exportFileName } from '../engine/export'
+import { downloadText } from '../lib/download'
 import { useDashboard } from '../state/dashboard'
 import { ReportSection } from './ReportSection'
 
@@ -41,9 +43,18 @@ function Table({ table, onOpen }: { table: AnswerTable; onOpen: (id: string) => 
 
 /** Preset questions only; one answer at a time. Findings can open a question here. */
 export function AskTheData() {
-  const { scored, registrants, event, askedId, ask, setSelectedId } = useDashboard()
+  const { scored, registrants, event, askedId, ask, setSelectedId, isDefault } = useDashboard()
   const question = QUESTIONS.find((q) => q.id === askedId)
   const answer = question?.answer({ scored, registrants, event })
+
+  // Answers that list people can be exported with every column, in the answer's order.
+  // The button's count and the file are built from the same list, so they always agree.
+  const byId = new Map(scored.map((a) => [a.registrant.id, a]))
+  const exportRows = (answer?.table?.ids ?? []).flatMap((id) => byId.get(id) ?? [])
+  const exportList = () => {
+    if (!question || exportRows.length === 0) return
+    downloadText(exportFileName(event.id, question.text.replace(/\?$/, ''), [], !isDefault), attendeesCsv(exportRows))
+  }
 
   return (
     <ReportSection
@@ -74,6 +85,11 @@ export function AskTheData() {
             <div className="turn-a">
               <p className="answer-sentence">{answer.sentence}</p>
               {answer.table && <Table table={answer.table} onOpen={setSelectedId} />}
+              {exportRows.length > 0 && (
+                <button type="button" className="btn btn-sm answer-export" onClick={exportList}>
+                  Export this list ({exportRows.length})
+                </button>
+              )}
               <details className="answer-method">
                 <summary>How this was calculated</summary>
                 <dl>

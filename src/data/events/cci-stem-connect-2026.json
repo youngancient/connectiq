@@ -8,32 +8,32 @@
     "schedule": [
       {
         "session": "Check-in opens",
-        "start": "13:15"
+        "start": "14:00"
       },
       {
         "session": "Keynote",
-        "start": "13:45",
-        "end": "14:30"
-      },
-      {
-        "session": "Networking",
         "start": "14:30",
         "end": "15:15"
       },
       {
-        "session": "Panel discussion",
+        "session": "Networking",
         "start": "15:15",
-        "end": "16:15"
+        "end": "16:00"
+      },
+      {
+        "session": "Panel discussion",
+        "start": "16:00",
+        "end": "17:00"
       },
       {
         "session": "Short break",
-        "start": "16:15",
-        "end": "16:30"
+        "start": "17:00",
+        "end": "17:15"
       },
       {
         "session": "Breakout sessions (Science, Tech, Engineering, Maths)",
-        "start": "16:30",
-        "end": "17:30"
+        "start": "17:15",
+        "end": "18:15"
       }
     ],
     "settings": {
@@ -49,8 +49,8 @@
         "followups": 5,
         "questions": 2
       },
-      "eventStart": "13:45",
-      "latestCheckin": "15:00",
+      "eventStart": "14:30",
+      "latestCheckin": "15:45",
       "tiers": {
         "super": 75,
         "active": 55,
@@ -68,7 +68,7 @@
       "yearsExperience": 4,
       "registrationDate": "2026-11-15",
       "activity": {
-        "checkinTime": "13:40",
+        "checkinTime": "14:25",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -92,7 +92,7 @@
       "yearsExperience": 3,
       "registrationDate": "2026-11-15",
       "activity": {
-        "checkinTime": "13:54",
+        "checkinTime": "14:39",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -116,7 +116,7 @@
       "yearsExperience": 12,
       "registrationDate": "2026-11-17",
       "activity": {
-        "checkinTime": "14:34",
+        "checkinTime": "15:19",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -140,7 +140,7 @@
       "yearsExperience": 7,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:48",
+        "checkinTime": "14:33",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -164,7 +164,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -198,7 +198,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:18",
+        "checkinTime": "14:03",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -222,7 +222,7 @@
       "yearsExperience": 4,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:20",
+        "checkinTime": "14:05",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -246,7 +246,7 @@
       "yearsExperience": 11,
       "registrationDate": "2026-11-04",
       "activity": {
-        "checkinTime": "14:32",
+        "checkinTime": "15:17",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -270,7 +270,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:31",
+        "checkinTime": "14:16",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -294,7 +294,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-06",
       "activity": {
-        "checkinTime": "13:35",
+        "checkinTime": "14:20",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -318,7 +318,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "13:43",
+        "checkinTime": "14:28",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -342,7 +342,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "14:49",
+        "checkinTime": "15:34",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -366,7 +366,7 @@
       "yearsExperience": 3,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "14:14",
+        "checkinTime": "14:59",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -390,7 +390,7 @@
       "yearsExperience": 2,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "13:30",
+        "checkinTime": "14:15",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -414,7 +414,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "14:32",
+        "checkinTime": "15:17",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -448,7 +448,7 @@
       "yearsExperience": 7,
       "registrationDate": "2026-11-08",
       "activity": {
-        "checkinTime": "14:38",
+        "checkinTime": "15:23",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -472,7 +472,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:36",
+        "checkinTime": "14:21",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -496,7 +496,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-08",
       "activity": {
-        "checkinTime": "14:29",
+        "checkinTime": "15:14",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -520,7 +520,7 @@
       "yearsExperience": 6,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "13:49",
+        "checkinTime": "14:34",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -544,7 +544,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "14:18",
+        "checkinTime": "15:03",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -568,7 +568,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:27",
+        "checkinTime": "14:12",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -592,7 +592,7 @@
       "yearsExperience": 3,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:26",
+        "checkinTime": "14:11",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -616,7 +616,7 @@
       "yearsExperience": 10,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:47",
+        "checkinTime": "14:32",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -650,7 +650,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-15",
       "activity": {
-        "checkinTime": "13:37",
+        "checkinTime": "14:22",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -674,7 +674,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "13:24",
+        "checkinTime": "14:09",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -718,7 +718,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -742,7 +742,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "14:01",
+        "checkinTime": "14:46",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -766,7 +766,7 @@
       "yearsExperience": 6,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "13:44",
+        "checkinTime": "14:29",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -790,7 +790,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-11",
       "activity": {
-        "checkinTime": "13:30",
+        "checkinTime": "14:15",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -814,7 +814,7 @@
       "yearsExperience": 8,
       "registrationDate": "2026-11-13",
       "activity": {
-        "checkinTime": "14:03",
+        "checkinTime": "14:48",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -838,7 +838,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-08",
       "activity": {
-        "checkinTime": "14:36",
+        "checkinTime": "15:21",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -862,7 +862,7 @@
       "yearsExperience": 4,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:57",
+        "checkinTime": "14:42",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -886,7 +886,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:54",
+        "checkinTime": "14:39",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -910,7 +910,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-05",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -934,7 +934,7 @@
       "yearsExperience": 5,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "14:13",
+        "checkinTime": "14:58",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -958,7 +958,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:41",
+        "checkinTime": "14:26",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1002,7 +1002,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "14:09",
+        "checkinTime": "14:54",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -1026,7 +1026,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "14:21",
+        "checkinTime": "15:06",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -1060,7 +1060,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "14:25",
+        "checkinTime": "15:10",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -1084,7 +1084,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:48",
+        "checkinTime": "14:33",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1108,7 +1108,7 @@
       "yearsExperience": 12,
       "registrationDate": "2026-11-04",
       "activity": {
-        "checkinTime": "13:17",
+        "checkinTime": "14:02",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1132,7 +1132,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "13:32",
+        "checkinTime": "14:17",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1156,7 +1156,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-10",
       "activity": {
-        "checkinTime": "13:39",
+        "checkinTime": "14:24",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1200,7 +1200,7 @@
       "yearsExperience": 9,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:47",
+        "checkinTime": "14:32",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -1234,7 +1234,7 @@
       "yearsExperience": 6,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "14:00",
+        "checkinTime": "14:45",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -1258,7 +1258,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "14:21",
+        "checkinTime": "15:06",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -1282,7 +1282,7 @@
       "yearsExperience": 2,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:17",
+        "checkinTime": "14:02",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1306,7 +1306,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "14:57",
+        "checkinTime": "15:42",
         "keynote": false,
         "networking": false,
         "panel": false,
@@ -1340,7 +1340,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:34",
+        "checkinTime": "14:19",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1364,7 +1364,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:29",
+        "checkinTime": "14:14",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -1388,7 +1388,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-14",
       "activity": {
-        "checkinTime": "13:34",
+        "checkinTime": "14:19",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1412,7 +1412,7 @@
       "yearsExperience": 2,
       "registrationDate": "2026-11-14",
       "activity": {
-        "checkinTime": "13:54",
+        "checkinTime": "14:39",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1446,7 +1446,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:47",
+        "checkinTime": "14:32",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1470,7 +1470,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-04",
       "activity": {
-        "checkinTime": "13:49",
+        "checkinTime": "14:34",
         "keynote": true,
         "networking": true,
         "panel": false,
@@ -1504,7 +1504,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-11",
       "activity": {
-        "checkinTime": "13:46",
+        "checkinTime": "14:31",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1528,7 +1528,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "13:19",
+        "checkinTime": "14:04",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1552,7 +1552,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-04",
       "activity": {
-        "checkinTime": "13:26",
+        "checkinTime": "14:11",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1576,7 +1576,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "13:20",
+        "checkinTime": "14:05",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1600,7 +1600,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "13:38",
+        "checkinTime": "14:23",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1624,7 +1624,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-17",
       "activity": {
-        "checkinTime": "13:56",
+        "checkinTime": "14:41",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -1648,7 +1648,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-13",
       "activity": {
-        "checkinTime": "13:47",
+        "checkinTime": "14:32",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1672,7 +1672,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "14:01",
+        "checkinTime": "14:46",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -1696,7 +1696,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1730,7 +1730,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:18",
+        "checkinTime": "14:03",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1754,7 +1754,7 @@
       "yearsExperience": 8,
       "registrationDate": "2026-11-05",
       "activity": {
-        "checkinTime": "13:31",
+        "checkinTime": "14:16",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1778,7 +1778,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "13:44",
+        "checkinTime": "14:29",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1802,7 +1802,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1826,7 +1826,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "13:48",
+        "checkinTime": "14:33",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1850,7 +1850,7 @@
       "yearsExperience": 4,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "13:40",
+        "checkinTime": "14:25",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1874,7 +1874,7 @@
       "yearsExperience": 2,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "14:48",
+        "checkinTime": "15:33",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -1898,7 +1898,7 @@
       "yearsExperience": 4,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:50",
+        "checkinTime": "14:35",
         "keynote": true,
         "networking": false,
         "panel": false,
@@ -1922,7 +1922,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-08",
       "activity": {
-        "checkinTime": "14:19",
+        "checkinTime": "15:04",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -1946,7 +1946,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "13:22",
+        "checkinTime": "14:07",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1970,7 +1970,7 @@
       "yearsExperience": 9,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "13:30",
+        "checkinTime": "14:15",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -1994,7 +1994,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -2018,7 +2018,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2042,7 +2042,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:37",
+        "checkinTime": "14:22",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2076,7 +2076,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "13:36",
+        "checkinTime": "14:21",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -2100,7 +2100,7 @@
       "yearsExperience": 6,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "13:39",
+        "checkinTime": "14:24",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2144,7 +2144,7 @@
       "yearsExperience": 8,
       "registrationDate": "2026-11-11",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -2168,7 +2168,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-17",
       "activity": {
-        "checkinTime": "14:00",
+        "checkinTime": "14:45",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2192,7 +2192,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:43",
+        "checkinTime": "14:28",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2216,7 +2216,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:32",
+        "checkinTime": "14:17",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2240,7 +2240,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:29",
+        "checkinTime": "14:14",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2264,7 +2264,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:35",
+        "checkinTime": "14:20",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2288,7 +2288,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "14:47",
+        "checkinTime": "15:32",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -2312,7 +2312,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-08",
       "activity": {
-        "checkinTime": "13:45",
+        "checkinTime": "14:30",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2336,7 +2336,7 @@
       "yearsExperience": 5,
       "registrationDate": "2026-11-07",
       "activity": {
-        "checkinTime": "13:26",
+        "checkinTime": "14:11",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2360,7 +2360,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "13:35",
+        "checkinTime": "14:20",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -2394,7 +2394,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-11",
       "activity": {
-        "checkinTime": "13:55",
+        "checkinTime": "14:40",
         "keynote": true,
         "networking": true,
         "panel": false,
@@ -2418,7 +2418,7 @@
       "yearsExperience": 11,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "13:55",
+        "checkinTime": "14:40",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2442,7 +2442,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "14:38",
+        "checkinTime": "15:23",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -2466,7 +2466,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "14:06",
+        "checkinTime": "14:51",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -2490,7 +2490,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "14:08",
+        "checkinTime": "14:53",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -2514,7 +2514,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "13:50",
+        "checkinTime": "14:35",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -2538,7 +2538,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:33",
+        "checkinTime": "14:18",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -2562,7 +2562,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "13:52",
+        "checkinTime": "14:37",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2586,7 +2586,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-04",
       "activity": {
-        "checkinTime": "13:30",
+        "checkinTime": "14:15",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2610,7 +2610,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-15",
       "activity": {
-        "checkinTime": "14:41",
+        "checkinTime": "15:26",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -2644,7 +2644,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-11",
       "activity": {
-        "checkinTime": "14:12",
+        "checkinTime": "14:57",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -2668,7 +2668,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:53",
+        "checkinTime": "14:38",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2692,7 +2692,7 @@
       "yearsExperience": 12,
       "registrationDate": "2026-11-04",
       "activity": {
-        "checkinTime": "13:36",
+        "checkinTime": "14:21",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -2716,7 +2716,7 @@
       "yearsExperience": 7,
       "registrationDate": "2026-11-08",
       "activity": {
-        "checkinTime": "13:38",
+        "checkinTime": "14:23",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2740,7 +2740,7 @@
       "yearsExperience": 11,
       "registrationDate": "2026-11-15",
       "activity": {
-        "checkinTime": "13:44",
+        "checkinTime": "14:29",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -2814,7 +2814,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "14:09",
+        "checkinTime": "14:54",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -2878,7 +2878,7 @@
       "yearsExperience": 11,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "14:43",
+        "checkinTime": "15:28",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -2952,7 +2952,7 @@
       "yearsExperience": 8,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "13:29",
+        "checkinTime": "14:14",
         "keynote": true,
         "networking": true,
         "panel": false,
@@ -3166,7 +3166,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:43",
+        "checkinTime": "14:28",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -3260,7 +3260,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-02",
       "activity": {
-        "checkinTime": "13:45",
+        "checkinTime": "14:30",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -3414,7 +3414,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "13:42",
+        "checkinTime": "14:27",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -3438,7 +3438,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-08",
       "activity": {
-        "checkinTime": "13:30",
+        "checkinTime": "14:15",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -3472,7 +3472,7 @@
       "yearsExperience": 3,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "14:27",
+        "checkinTime": "15:12",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -3546,7 +3546,7 @@
       "yearsExperience": 8,
       "registrationDate": "2026-11-06",
       "activity": {
-        "checkinTime": "13:45",
+        "checkinTime": "14:30",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -3610,7 +3610,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "13:30",
+        "checkinTime": "14:15",
         "keynote": true,
         "networking": true,
         "panel": false,
@@ -3634,7 +3634,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-15",
       "activity": {
-        "checkinTime": "14:02",
+        "checkinTime": "14:47",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -3688,7 +3688,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-10",
       "activity": {
-        "checkinTime": "14:28",
+        "checkinTime": "15:13",
         "keynote": false,
         "networking": false,
         "panel": true,
@@ -3802,7 +3802,7 @@
       "yearsExperience": 4,
       "registrationDate": "2026-11-20",
       "activity": {
-        "checkinTime": "13:59",
+        "checkinTime": "14:44",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -3876,7 +3876,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "13:32",
+        "checkinTime": "14:17",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -3910,7 +3910,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "13:15",
+        "checkinTime": "14:00",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -3964,7 +3964,7 @@
       "yearsExperience": 2,
       "registrationDate": "2026-11-13",
       "activity": {
-        "checkinTime": "13:18",
+        "checkinTime": "14:03",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -3988,7 +3988,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-11",
       "activity": {
-        "checkinTime": "14:41",
+        "checkinTime": "15:26",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -4012,7 +4012,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-16",
       "activity": {
-        "checkinTime": "13:58",
+        "checkinTime": "14:43",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -4046,7 +4046,7 @@
       "yearsExperience": 7,
       "registrationDate": "2026-11-06",
       "activity": {
-        "checkinTime": "13:34",
+        "checkinTime": "14:19",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4150,7 +4150,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-15",
       "activity": {
-        "checkinTime": "14:40",
+        "checkinTime": "15:25",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -4254,7 +4254,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "13:19",
+        "checkinTime": "14:04",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4328,7 +4328,7 @@
       "yearsExperience": 12,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "13:37",
+        "checkinTime": "14:22",
         "keynote": true,
         "networking": false,
         "panel": true,
@@ -4352,7 +4352,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "13:43",
+        "checkinTime": "14:28",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4386,7 +4386,7 @@
       "yearsExperience": 3,
       "registrationDate": "2026-11-12",
       "activity": {
-        "checkinTime": "13:59",
+        "checkinTime": "14:44",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -4430,7 +4430,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "14:52",
+        "checkinTime": "15:37",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -4474,7 +4474,7 @@
       "yearsExperience": 8,
       "registrationDate": "2026-11-14",
       "activity": {
-        "checkinTime": "13:37",
+        "checkinTime": "14:22",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4548,7 +4548,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "14:30",
+        "checkinTime": "15:15",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -4602,7 +4602,7 @@
       "yearsExperience": 2,
       "registrationDate": "2026-11-05",
       "activity": {
-        "checkinTime": "13:38",
+        "checkinTime": "14:23",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4656,7 +4656,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-07",
       "activity": {
-        "checkinTime": "13:19",
+        "checkinTime": "14:04",
         "keynote": true,
         "networking": true,
         "panel": false,
@@ -4710,7 +4710,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-01",
       "activity": {
-        "checkinTime": "13:23",
+        "checkinTime": "14:08",
         "keynote": true,
         "networking": true,
         "panel": false,
@@ -4734,7 +4734,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "13:16",
+        "checkinTime": "14:01",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4778,7 +4778,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-17",
       "activity": {
-        "checkinTime": "13:26",
+        "checkinTime": "14:11",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4822,7 +4822,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "13:35",
+        "checkinTime": "14:20",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -4846,7 +4846,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-04",
       "activity": {
-        "checkinTime": "14:09",
+        "checkinTime": "14:54",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -4870,7 +4870,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-17",
       "activity": {
-        "checkinTime": "14:08",
+        "checkinTime": "14:53",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -4974,7 +4974,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-07",
       "activity": {
-        "checkinTime": "13:29",
+        "checkinTime": "14:14",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5048,7 +5048,7 @@
       "yearsExperience": 4,
       "registrationDate": "2026-11-19",
       "activity": {
-        "checkinTime": "14:29",
+        "checkinTime": "15:14",
         "keynote": false,
         "networking": true,
         "panel": false,
@@ -5092,7 +5092,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-18",
       "activity": {
-        "checkinTime": "13:19",
+        "checkinTime": "14:04",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5136,7 +5136,7 @@
       "yearsExperience": 5,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:20",
+        "checkinTime": "14:05",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5250,7 +5250,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-05",
       "activity": {
-        "checkinTime": "13:31",
+        "checkinTime": "14:16",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5384,7 +5384,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-21",
       "activity": {
-        "checkinTime": "13:38",
+        "checkinTime": "14:23",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5408,7 +5408,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-10",
       "activity": {
-        "checkinTime": "13:20",
+        "checkinTime": "14:05",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5432,7 +5432,7 @@
       "yearsExperience": 1,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "14:51",
+        "checkinTime": "15:36",
         "keynote": false,
         "networking": true,
         "panel": true,
@@ -5476,7 +5476,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-09",
       "activity": {
-        "checkinTime": "13:43",
+        "checkinTime": "14:28",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5600,7 +5600,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-03",
       "activity": {
-        "checkinTime": "13:31",
+        "checkinTime": "14:16",
         "keynote": true,
         "networking": true,
         "panel": true,
@@ -5724,7 +5724,7 @@
       "yearsExperience": 0,
       "registrationDate": "2026-11-10",
       "activity": {
-        "checkinTime": "13:37",
+        "checkinTime": "14:22",
         "keynote": true,
         "networking": true,
         "panel": false,

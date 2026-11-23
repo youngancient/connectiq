@@ -65,11 +65,11 @@ describe('helpers', () => {
   })
 
   it('clamps punctuality to 0–1', () => {
-    expect(punctuality('13:15', settings)).toBe(1)
-    expect(punctuality('13:45', settings)).toBe(1)
-    expect(punctuality('15:00', settings)).toBe(0)
-    expect(punctuality('15:30', settings)).toBe(0)
-    expect(punctuality('14:22', settings)).toBeCloseTo(38 / 75)
+    expect(punctuality('14:00', settings)).toBe(1) // before the keynote
+    expect(punctuality('14:30', settings)).toBe(1) // keynote start
+    expect(punctuality('15:45', settings)).toBe(0) // latest check-in counted
+    expect(punctuality('16:15', settings)).toBe(0)
+    expect(punctuality('15:07', settings)).toBeCloseTo(38 / 75)
   })
 
   it('formats times on a 12-hour clock for display', () => {
